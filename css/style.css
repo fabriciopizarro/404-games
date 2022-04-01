@@ -215,3 +215,33 @@
 .splide__movie-button-icon {
     width: 10px;
 }
+/* free games section*/
+ .gift-icon{
+    height: 300px;
+    width: 10%;
+    margin-left: 15px;
+  }
+  
+  .card{
+    background-color: transparent ;
+    border: none ;
+  }
+  
+  .bg-free{
+    background-color: #3a3838;
+  }
+  
+  .border-radius{
+    border-bottom-left-radius:  0  ;
+    border-bottom-right-radius:  0  ;
+  }
+  
+  
+  .color-text-01{
+      color: var(--text-color);
+    }
+  
+  img:hover {
+    filter: brightness(140%);
+    transition: 0.2s;
+  }

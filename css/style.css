@@ -241,7 +241,7 @@
       color: var(--text-color);
     }
   
-  img:hover {
+  .card-img:hover {
     filter: brightness(140%);
     transition: 0.2s;
   }

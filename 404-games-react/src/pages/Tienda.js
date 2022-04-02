@@ -1,5 +1,8 @@
 import '../styles/css/Games.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {
+    Link
+} from 'react-router-dom';
 
 const Tienda = () => {
 
@@ -16,7 +19,7 @@ const Tienda = () => {
                                 <p className="card-text text-decoration-line-through">PEN 99.90</p>
                                 <p className="card-text">PEN 49.95</p>
                             </div>
-                            <button className="btn btn-danger">Saber mas</button>
+                            <Link to="/tienda/formPago" className="btn btn-danger">Comprar</Link>
                         </div>
                     </div>
 
@@ -28,7 +31,7 @@ const Tienda = () => {
                                 <p className="card-text text-decoration-line-through">PEN 300</p>
                                 <p className="card-text">PEN 218</p>
                             </div>
-                            <button className="btn btn-danger">Saber mas</button>
+                            <Link to="/tienda/formPago" className="btn btn-danger">Comprar</Link>
                         </div>
                     </div>
 
@@ -40,7 +43,7 @@ const Tienda = () => {
                                 <p className="card-text text-decoration-line-through">PEN 99.90</p>
                                 <p className="card-text">PEN 59.90</p>
                             </div>
-                            <button className="btn btn-danger">Saber mas</button>
+                            <Link to="/tienda/formPago" className="btn btn-danger">Comprar</Link>
                         </div>
                     </div>
 
@@ -52,7 +55,7 @@ const Tienda = () => {
                                 <p className="card-text text-decoration-line-through">PEN 37</p>
                                 <p className="card-text">PEN 20</p>
                             </div>
-                            <button className="btn btn-danger">Saber mas</button>
+                            <Link to="/tienda/formPago" className="btn btn-danger">Comprar</Link>
                         </div>
                     </div>
                 </div>  
@@ -70,7 +73,7 @@ const Tienda = () => {
                                 <p className="card-text text-decoration-line-through">PEN 250</p>
                                 <p className="card-text">PEN 199</p>
                             </div>
-                            <button className="btn btn-danger">Saber mas</button>
+                            <Link to="/tienda/formPago" className="btn btn-danger">Comprar</Link>
                         </div>
                     </div>
 
@@ -82,7 +85,7 @@ const Tienda = () => {
                                 <p className="card-text text-decoration-line-through">PEN 26</p>
                                 <p className="card-text">PEN 22.10</p>
                             </div>
-                            <button className="btn btn-danger">Saber mas</button>
+                            <Link to="/tienda/formPago" className="btn btn-danger">Comprar</Link>
                         </div>
                     </div>
 
@@ -94,7 +97,7 @@ const Tienda = () => {
                                 <p className="card-text text-decoration-line-through">PEN 44</p>
                                 <p className="card-text">PEN 13.20</p>
                             </div>
-                            <button className="btn btn-danger">Saber mas</button>
+                            <Link to="/tienda/formPago" className="btn btn-danger">Comprar</Link>
                         </div>
                     </div>
 
@@ -106,7 +109,7 @@ const Tienda = () => {
                                 <p className="card-text text-decoration-line-through">PEN 79</p>
                                 <p className="card-text">PEN 39.50</p>
                             </div>
-                            <button className="btn btn-danger">Saber mas</button>
+                            <Link to="/tienda/formPago" className="btn btn-danger">Comprar</Link>
                         </div>
                     </div>
                 </div>  
@@ -124,7 +127,7 @@ const Tienda = () => {
                                 <p className="card-text text-decoration-line-through">PEN 90</p>
                                 <p className="card-text">PEN 77.99</p>
                             </div>
-                            <button className="btn btn-danger">Saber mas</button>
+                            <Link to="/tienda/formPago" className="btn btn-danger">Comprar</Link>
                         </div>
                     </div>
 
@@ -136,7 +139,7 @@ const Tienda = () => {
                                 <p className="card-text text-decoration-line-through">PEN 179</p>
                                 <p className="card-text">PEN 89.50</p>
                             </div>
-                            <button className="btn btn-danger">Saber mas</button>
+                            <Link to="/tienda/formPago" className="btn btn-danger">Comprar</Link>
                         </div>
                     </div>
 
@@ -148,7 +151,7 @@ const Tienda = () => {
                                 <p className="card-text text-decoration-line-through">PEN 38.99</p>
                                 <p className="card-text">PEN 29.24</p>
                             </div>
-                            <button className="btn btn-danger">Saber mas</button>
+                            <Link to="/tienda/formPago" className="btn btn-danger">Comprar</Link>
                         </div>
                     </div>
 
@@ -160,7 +163,7 @@ const Tienda = () => {
                                 <p className="card-text text-decoration-line-through">PEN 79</p>
                                 <p className="card-text">PEN 68.99</p>
                             </div>
-                            <button className="btn btn-danger">Saber mas</button>
+                            <Link to="/tienda/formPago" className="btn btn-danger">Comprar</Link>
                         </div>
                     </div>
                 </div>  

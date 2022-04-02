@@ -1,0 +1,85 @@
+.form-pago-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 300px;
+    margin: 4rem auto;
+    overflow: hidden;
+}
+.form-pago__title{
+    font-size: 2rem;
+}
+.formulario-pago{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.form-button,
+.button-come-back{
+    display: flex;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.form-button{
+    border: 0;
+    background-color: white;
+}
+
+.button-come-back{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
+
+@media (min-width: 854px){
+    .form-pago-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        max-width: 1024px;
+        margin: 5rem auto;
+        overflow: hidden;
+    }
+    .form-pago__title{
+        font-size: 2rem;
+    }
+    .formulario-pago{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .button-container{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .form-button,
+    .button-come-back{
+        display: flex;
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        align-items: center;
+        border-radius: 12px;
+    }
+
+    .form-button{
+        border: 0;
+        background-color: white;
+    }
+
+    .button-come-back{
+        text-decoration: none;
+        background-color: white;
+        color: black;
+    }
+}

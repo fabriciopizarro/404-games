@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/Header';
 import Home from './pages/Home';
 import Tienda from './pages/Tienda';
+import FormPago from './pages/FormPago';
 import {
   BrowserRouter as Router,
   Routes,
@@ -14,8 +15,9 @@ function App() {
       <Header/>
       <main>
         <Routes>
-          <Route path="/" element={<Home/>} />
+          <Route path="/tienda/formPago" element={<FormPago/>} />
           <Route path="/tienda" element={<Tienda/>} />
+          <Route path="/" element={<Home/>} />
         </Routes>
       </main>
     </Router>

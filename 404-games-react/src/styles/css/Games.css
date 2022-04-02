@@ -1,0 +1,47 @@
+.primera-necesidad__container{
+    max-width: 290px;
+    margin: 2rem auto;
+}
+
+.primera-necesidad__title{
+    margin: 1.5rem;
+}
+
+.cards-conatiner{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+}
+
+.card-body{
+    background-color: rgb(59, 58, 58);
+    color: white;
+}
+
+@media (min-width: 854px){
+
+    .primera-necesidad__container{
+        max-width: 1024px;
+        margin: 3rem auto;
+    }
+
+    .primera-necesidad__title{
+        margin: 2rem;
+    }
+
+    .cards-conatiner{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.8rem;
+        flex-wrap: wrap;
+    }
+/*
+    .card{
+        width: 15rem;
+    }*/
+}

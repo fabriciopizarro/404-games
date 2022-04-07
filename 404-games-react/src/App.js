@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import Tienda from './pages/Tienda';
 import FormPago from './pages/FormPago';
@@ -20,6 +21,7 @@ function App() {
           <Route path="/" element={<Home/>} />
         </Routes>
       </main>
+      <Footer/>
     </Router>
   );
 }

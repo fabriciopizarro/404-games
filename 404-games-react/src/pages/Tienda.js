@@ -47,7 +47,7 @@ const Tienda = () => {
                         </div>
                     </div>
 
-                    <div className="card text-center" style={{ width: '16rem' }}>
+                    <div className="card text-center" style={{ width: '15.5rem' }}>
                         <img src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_DEMONSTILT_WIZNWAR_S2_1200x1600-b2171dcb9b7272a6e654f53a093e682d?h=854&resize=1&w=640" class="card-img-top" alt="Foto de videojuego" />
                         <div className="card-body"> 
                             <h5 className="card-title">DEMON'S TILT</h5>
@@ -77,7 +77,7 @@ const Tienda = () => {
                         </div>
                     </div>
 
-                    <div className="card text-center" style={{ width: '15.5rem' }}>
+                    <div className="card text-center" style={{ width: '15rem' }}>
                         <img src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_HordeCore_DigitalityStudios_S2_1200x1600-5e5a51fd6ff0190fe470feb1e92bf8f7?h=854&resize=1&w=640" class="card-img-top" alt="Foto de videojuego" />
                         <div className="card-body">
                             <h5 className="card-title">Horde Core!</h5>
@@ -89,7 +89,7 @@ const Tienda = () => {
                         </div>
                     </div>
 
-                    <div className="card text-center" style={{ width: '15rem' }}>
+                    <div className="card text-center" style={{ width: '14.5rem' }}>
                         <img src="https://cdn1.epicgames.com/spt-assets/22982e4b074d49ecb6a29abeb58a3922/download-townsmen--a-kingdom-rebuilt-offer-gbi1z.jpg?h=854&resize=1&w=640" class="card-img-top" alt="Foto de videojuego" />
                         <div className="card-body">
                             <h5 className="card-title">Townsmen - A Kingdom Rebuilt</h5>
@@ -101,7 +101,7 @@ const Tienda = () => {
                         </div>
                     </div>
 
-                    <div className="card text-center" style={{ width: '15.5rem' }}>
+                    <div className="card text-center" style={{ width: '15rem' }}>
                         <img src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_InsurgencySandstormbasegame_NewWorldInteractive_Editions_S2_1200x1600-68b46ff62079d0f55889b09ced95e5f1?h=854&resize=1&w=640" class="card-img-top" alt="Foto de videojuego" />
                         <div className="card-body">
                             <h5 className="card-title">Insurgency: Sandstorm</h5>

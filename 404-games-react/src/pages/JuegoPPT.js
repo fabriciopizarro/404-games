@@ -137,7 +137,7 @@ const JuegoPPT = () => {
   
             <p id="accion">A Jugar!!!</p>
 
-            <Link to="/" className="button__come-back">Regresar</Link>
+            <Link to="/home" className="button__come-back">Regresar</Link>
     
         </div>
     );

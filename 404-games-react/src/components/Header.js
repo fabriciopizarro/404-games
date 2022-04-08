@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <header id="header" className="header">
             <nav className="header-nav">
-                <Link className="header-nav__logo-container" to="/">
+                <Link className="header-nav__logo-container" to="/home">
                     <img className="header-nav__logo" src="https://thumbs.dreamstime.com/b/hexagon-gaming-logo-colorful-vector-design-hexagon-game-gaming-logo-design-168547122.jpg" alt="Logo" />
                 </Link>
                 <label className="header-nav__icon-container" for="menu">
@@ -16,7 +16,7 @@ const Header = () => {
                 <input className="header-nav__checkbox" type="checkbox" name="menu" id="menu" />
                 <ul className="header-nav__list">
                     <li className="header-nav__item">
-                        <Link className="header-nav__link" to="/">INICIO</Link>
+                        <Link className="header-nav__link" to="/home">INICIO</Link>
                     </li>
                     <li className="header-nav__item">
                         <Link className="header-nav__link" to="/tienda">TIENDA</Link>

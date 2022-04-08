@@ -1,6 +1,9 @@
 import unreal from '../assets/News/unreal-engine.png';
-import PINBALL from '../assets/News/PINBALL FX.jpg';
 import EVE from '../assets/News/EVE.jpg';
+import promoBg4 from '../assets/News/promo-bg-4.png';
+import {
+    Link
+} from 'react-router-dom';
 
 const Explora = () => {
     return (
@@ -12,17 +15,17 @@ const Explora = () => {
             <h2>Motor irreal</h2>
             <p>Sintonice nuestra transmisión en vivo de State of Unreal el 5 de abril para un anuncio muy especial de Unreal Engine.</p>
             <div class="footer__card">
-                <a href="#">Aprende más</a>
+                <p>Aprende más</p>
             </div>
         </div>
         <div class="cards">
             <div class="cover__card">
-                <img src={PINBALL} alt="Imagen" />
+                <img src={promoBg4} alt="Imagen" />
             </div>
-            <h2>Pinball FX - Acceso anticipado</h2>
-            <p>Pinball FX es un pinball digital evolucionado. Disfruta las nuevas actualizaciones ¡Juega y obtén la puntuación más alta!</p>
+            <h2>Piedra, Papel y Tijera - Acceso</h2>
+            <p>PPT es un juego tradicional digital evolucionado. Disfruta las nuevas actualizaciones ¡Juega y obtén la puntuación más alta!</p>
             <div class="footer__card">
-                <a href="#">Gratis</a>
+                <Link to="/pptGame">Gratis</Link>
             </div>
         </div>
         <div class="cards">
@@ -32,7 +35,7 @@ const Explora = () => {
             <h2>Eve Online: paquete superlumínico</h2>
             <p>¡Reclame un paquete exclusivo GRATIS de Semiotique Superluminal SKIN y ropa Capsuleer!</p>
             <div class="footer__card">
-                <a href="#">Aprende más</a>
+                <p>Aprende más</p>
             </div>
         </div>
     </div>

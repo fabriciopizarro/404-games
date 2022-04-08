@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Tienda from './pages/Tienda';
 import FormPago from './pages/FormPago';
 import JuegosGratis from './pages/JuegosGratis';
+import JuegosPPT from './pages/JuegoPPT';
 import {
   BrowserRouter as Router,
   Routes,
@@ -20,6 +21,7 @@ function App() {
           <Route path="/tienda/formPago" element={<FormPago/>} />
           <Route path="/tienda" element={<Tienda/>} />
           <Route path="/free" element={<JuegosGratis/>} />
+          <Route path="/pptGame" element={<JuegosPPT/>} />
           <Route path="/" element={<Home/>} />
         </Routes>
       </main>

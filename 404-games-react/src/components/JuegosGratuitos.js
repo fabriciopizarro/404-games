@@ -1,4 +1,7 @@
 import Gift from '../assets/gift-icon.svg'
+import {
+    NavLink
+} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const JuegosGratuitos = () => {
@@ -20,8 +23,8 @@ const JuegosGratuitos = () => {
                                     </span>
                                 
                                 </div>
-                                <h2 class=" mt-1 px-3 color-text-01">
-                                   Juegos gratuitos
+                                <h2 class=" mt-1 px-3 color-text-light">
+                                   Juegos gratuitos temporales
                                 </h2>
                            
 
@@ -30,7 +33,7 @@ const JuegosGratuitos = () => {
                             <div class="col">
 
                                 <div class=" float-end">
-                                   <a href="#" class="btn btn-outline-light">Ver mas</a>
+                                   <NavLink to="/free" class="btn btn-outline-light">Ver mas</NavLink>
                                 </div>
 
                             </div>

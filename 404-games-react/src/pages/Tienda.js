@@ -8,9 +8,9 @@ const Tienda = () => {
 
     return (
         <>
-           <section className="primera-necesidad__container">
+            <section className="primera-necesidad__container">
                 <h1 className="primera-necesidad__title">Populares</h1>
-                <div className="cards-conatiner">
+                <div className="cards-conatiner" id="cardsContainer1">
                     <div className="card text-center" style={{ width: '15rem' }}>
                         <img src="https://cdn1.epicgames.com/0584d2013f0149a791e7b9bad0eec102/offer/GTAV_EGS_Artwork_1200x1600_Portrait%20Store%20Banner-1200x1600-382243057711adf80322ed2aeea42191.jpg?h=854&resize=1&w=640" class="card-img-top" alt="Foto de videojuego" />
                         <div className="card-body">
@@ -58,13 +58,14 @@ const Tienda = () => {
                             <Link to="/tienda/formPago" className="btn btn-danger">Comprar</Link>
                         </div>
                     </div>
+
                 </div>  
           
             </section>
 
             <section className="primera-necesidad__container">
                 <h1 className="primera-necesidad__title">Juegos con logros</h1>
-                <div className="cards-conatiner">
+                <div className="cards-conatiner" id="cardsContainer2">
                     <div className="card text-center" style={{ width: '15rem' }}>
                         <img src="https://cdn1.epicgames.com/offer/d2b282a6b53e409a8f8329d3d3356f21/EGS_STRANGEROFPARADISEFINALFANTASYORIGIN_KOEITECMOGAMESCOLTD_S2_1200x1600-5c21f5cf42dd7c4db1ce06bad4da3260_1200x1600-5c21f5cf42dd7c4db1ce06bad4da3260?h=854&resize=1&w=640" class="card-img-top" alt="Foto de videojuego" />
                         <div className="card-body">
@@ -118,7 +119,7 @@ const Tienda = () => {
 
             <section className="primera-necesidad__container">
                 <h1 className="primera-necesidad__title">Nuevos Juegos</h1>
-                <div className="cards-conatiner">
+                <div className="cards-conatiner" id="cardsContainer3">
                     <div className="card text-center" style={{ width: '15rem' }}>
                         <img src="https://cdn1.epicgames.com/spt-assets/45621425daac45a8bcd9e8ff6c659a38/download-bassmaster-fishing-2022-offer-ry8v4.jpg?h=854&resize=1&w=640" class="card-img-top" alt="Foto de videojuego" />
                         <div className="card-body">

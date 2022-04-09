@@ -8,39 +8,27 @@ const FormPago = () => {
         <section className="form-pago-container">
            <h1 className="form-pago__title">Formato de Pago</h1>
            <form className="formulario-pago">
-               <label htmlFor="">Nombre Completo</label>
-               <input
-                  type="text"
-                  className="form-data"
-                  id="formPagoNombrePersona"
-                  name="Nombre de la persona"
-                  required
-                  placeholder="Ingrese su nombre completo"
-                />
+               <div className="datos-personales__container">
+                    <input type="text" id="nombre" placeholder="Nombre Completo" name="nombre" className="registro__form-input" required pattern="^[a-zA-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-zA-ZÀ-ÿ\u00f1\u00d1]*)*[a-zA-ZÀ-ÿ\u00f1\u00d1]+$"
+                    title="No se aceptan caracteres especiales ni números"/>
+                
+                    <input type="text" id="apellido" placeholder="Apellido Completo" name="apellido" className="registro__form-input" required pattern="^[a-zA-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-zA-ZÀ-ÿ\u00f1\u00d1]*)*[a-zA-ZÀ-ÿ\u00f1\u00d1]+$"
+                    title="No se aceptan caracteres especiales ni números"/>
+               </div>
+                
+                <input type="text" id="email" placeholder="Email" name="email" className="registro__form-input" required />
+                
+                <input type="number" id="celular" placeholder="Celular" name="celular" className="registro__form-input" min="900000000" max="999999999" required />
 
-                <label htmlFor="">Nombre del Banco</label>
-                <input
-                   type="text"
-                   className="form-data"
-                   id="formPagoBanco"
-                   name="form-cita-nombre-propietario"
-                   required
-                   placeholder="Ingrese el nombre del banco"
-                />
+                <input type="number" id="numCuenta" placeholder="Numero de cuenta" name="numeroCuenta" className="registro__form-input" min="90000000000000" max="99999999999999" required />
 
-                <label htmlFor="">Cuenta bancaria</label>
-                <input
-                   type="number"
-                   className="form-data"
-                   id="formPagoCuentaBanco"
-                   name="form-cita-nombre-propietario"
-                   required
-                   placeholder="Ingresesu cuenta bancaria"
-                />
+                <input type="text" id="banco" placeholder="Nombre de Banco" name="banco" className="registro__form-input" required />
 
-                <div className="button-container">
-                <button className="form-button">Pagar</button>
-                <Link to="/tienda" className="button-come-back">Regresar</Link>
+                <input type="number" id="codigoPostal" placeholder="Codigo Postal" name="codigoPostal" className="registro__form-input" min="90000" max="99999" required />
+                
+                <div className="buttons__container">
+                    <button className="registro__form-button">Pagar</button>
+                    <Link to="/tienda" className="button-come-back" onChange={handleChange}>Regresar</Link>
                 </div>
            </form>
         </section>

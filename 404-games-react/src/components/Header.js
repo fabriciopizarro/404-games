@@ -8,7 +8,7 @@ const Header = () => {
         <header id="header" className="header">
             <nav className="header-nav">
                 <Link className="header-nav__logo-container" to="/home">
-                    <img className="header-nav__logo" src="https://thumbs.dreamstime.com/b/hexagon-gaming-logo-colorful-vector-design-hexagon-game-gaming-logo-design-168547122.jpg" alt="Logo" />
+                    <img className="header-nav__logo" src="logo.png" alt="Logo" />
                 </Link>
                 <label className="header-nav__icon-container" for="menu">
                     <i id="header-icon" className="fas fa-bars" ></i>

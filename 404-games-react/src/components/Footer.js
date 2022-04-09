@@ -84,17 +84,9 @@ const Footer = () => {
 
                 <article class="footer-credits-up__list-container">
                     <section class="footer-credits-up__resources-list-content">
-                        <p class="footer-credits-up__resources-list-title">Recursos</p>
                         <ul class="footer-credits-up__resources-list">
 
-                            <li class="footer-credits-up__links-list">
-                                <a href="https://www.epicgames.com/affiliate/en-US/overview"
-                                    class="footer-credits-up__link">Apoya a un creador</a>
-                            </li>
-                            <li class="footer-credits-up__links-list">
-                                <a href="https://store.epicgames.com/es-ES/publish"
-                                    class="footer-credits-up__link">Publica en Epic Games</a>
-                            </li>
+                            
                             <li class="footer-credits-up__links-list">
                                 <a href="https://www.epicgames.com/site/es-ES/careers"
                                     class="footer-credits-up__link">Empleo</a>
@@ -103,28 +95,20 @@ const Footer = () => {
                                 <a href="https://www.epicgames.com/site/es-ES/about"
                                     class="footer-credits-up__link">Empresa</a>
                             </li>
-                            <li class="footer-credits-up__links-list">
-                                <a href="https://www.epicgames.com/site/es-ES/fan-art-policy"
-                                    class="footer-credits-up__link">Política de trabajos
-                                    artísticos</a>
-                            </li>
+                            
                             <li class="footer-credits-up__links-list">
                                 <a href="https://www.epicgames.com/site/es-ES/ux"
-                                    class="footer-credits-up__link">Investigación UX</a>
+                                    class="footer-credits-up__link">Investigación</a>
                             </li>
                             <li class="footer-credits-up__links-list">
-                                <a href="https://store.epicgames.com/es-ES/eula" class="footer-credits-up__link">CLUF de
+                                <a href="https://store.epicgames.com/es-ES/eula" class="footer-credits-up__link">CLUF
                                     tienda</a>
                             </li>
                             <li class="footer-credits-up__links-list">
                                 <a href="https://dev.epicgames.com/en-US/home" class="footer-credits-up__link">Servicios
                                     en linea</a>
                             </li>
-                            <li class="footer-credits-up__links-list">
-                                <a href="https://www.epicgames.com/site/es-ES/community-rules"
-                                    class="footer-credits-up__link">Reglamento de la
-                                    comunidad</a>
-                            </li>
+                            
                             <li class="footer-credits-up__links-list">
                                 <a href="https://www.epicgames.com/site/es-ES/news" class="footer-credits-up__link">Epic
                                     Newsroom</a>
@@ -135,7 +119,6 @@ const Footer = () => {
 
                 <article class="footer-credits-up__list-container">
                     <div class="footer-credits-up__made-list-content">
-                        <p class="footer-credits-up__made-list-title">Hecho por Epic Games</p>
                         <ul class="footer-credits-up__made-list">
                             <li class="footer-credits-up__links-list">
                                 <a href="https://www.epicgames.com/battlebreakers/es-ES/home"
@@ -173,13 +156,13 @@ const Footer = () => {
                 <article class="footer-credits-down__content">
                     <div class="footer-credits-down__paragraph-content">
                         <p class="footer-credits-down__paragraph">
-                            &copy; 2022, Epic Games, Inc. Todos los derechos reservados. Epic, Epic Games, el
-                            logotipo de Epic Games, Fornite, el logotipo de Fornite, Unreal, Unreal Engine, el
+                            &copy; 2022, 404 Games, Inc., 404 Games, el
+                            logotipo de 404 Games, Unreal, Unreal Engine, el
                             logotipo de Unreal Engine, Unreal Tournament y el logotipo de Unreal Tournament son
-                            marcas comerciales o marcas registradas por Epic Games, Inc. tanto en Estados Unidos de
+                            marcas comerciales o marcas registradas por 404 Games, Inc. tanto en Estados Unidos de
                             América com en el resto del mundo. Otras marcas o nombres de productos son marcas
                             comerciales de sus respectivos proietarios. Las transacciones fuera de EE.UU. se
-                            realizan a través de Epic Games International, S.à r.l.
+                            realizan a través de 404 Games International, S.à r.l.
                         </p>
                     </div>
 

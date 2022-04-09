@@ -28,7 +28,7 @@ const FormPago = () => {
                 
                 <div className="buttons__container">
                     <button className="registro__form-button">Pagar</button>
-                    <Link to="/tienda" className="button-come-back" onChange={handleChange}>Regresar</Link>
+                    <Link to="/tienda" className="button-come-back">Regresar</Link>
                 </div>
            </form>
         </section>

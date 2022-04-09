@@ -7,7 +7,14 @@ import {
 
 const Explora = () => {
     return (
+        
+        
         <div class="container__cards">
+
+                <h4 className="cards__titulo"><br></br><br></br><br></br>Prueba <br></br> un juego <br></br> online ahora 
+                <svg xmlns="http://www.w3.org/2000/svg" className="pedidos_vineta" viewBox="0 0 5 9"><path stroke="currentColor" d="M1 1l3 3.5L1 8" fill="none" fill-rule="evenodd"></path></svg>
+                </h4>
+
         <div class="cards">
             <div class="cover__card">
                 <img src={unreal} alt="Imagen" />

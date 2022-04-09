@@ -143,7 +143,6 @@
 
 .carousel-trailer:hover,
 .carousel-trailer-container:hover{
-    color: rgb(249, 119, 119);
     transform: scale(1.1);
 }
 

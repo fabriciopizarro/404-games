@@ -26,8 +26,14 @@
     padding: 0 1rem;
   }
   
+  .pedidos__titulo-container{
+    text-align: left;
+    margin-left: 7%;
+  }
+  
 .pedidos__titulo {
     font-size: 1.4rem;
+    
     margin-top: 2rem;
     color: var();
     font-weight: 300;
@@ -133,13 +139,15 @@
 }
   
 @media (min-width: 854px) {
-    .pedidos-container {
+    
+/* .pedidos-container {
       display: flex;
       align-items: center;
       padding: 0;
       max-width: 1024px;
       margin: auto;
-    }
+    } */
+
 .pedidos__pedidos {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

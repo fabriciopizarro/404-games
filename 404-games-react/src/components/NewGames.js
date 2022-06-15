@@ -5,15 +5,18 @@ const NewGames = () => {
     return (
 
         <section className="pedidos" id="pedidos" >
-        <div className="pedidos__div">
-            <div className="pedidos__titulo-container">
-                <h2 className="pedidos__titulo">Juegos en descuento 
-                <svg xmlns="http://www.w3.org/2000/svg" className="pedidos_vineta" viewBox="0 0 5 9"><path stroke="currentColor" d="M1 1l3 3.5L1 8" fill="none" fill-rule="evenodd"></path></svg>
+        
+        <div className="pedidos__titulo-container">
+                <h2 className="pedidos__titulo">Más vendidos 
+                <svg className="pedidos_vineta" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 9"><path stroke="currentColor" d="M1 1l3 3.5L1 8" fill="none" fill-rule="evenodd"></path></svg>
                 </h2>
                 <div className="pedidos_vineta">
                     
                 </div>
             </div>
+        
+        <div className="pedidos__div">
+            
             <div className="pedidos__pedidos">
 
                 <section className="pedidos__producto animate__animated animate__backInLeft">

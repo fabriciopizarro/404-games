@@ -189,7 +189,9 @@
 
 .container__cards{
     width:100%;
-    background-image: url("https://i.postimg.cc/GhNg8JP7/fondo-2.jpg");
+    background-image: url("https://i.postimg.cc/PxhyB34F/img.jpg");
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
@@ -278,8 +280,6 @@
         left: 0;
         transform: none;
         margin-top: 100px;
-        padding-top: 40px;
-        padding-bottom: 40px;
     }
 }
 

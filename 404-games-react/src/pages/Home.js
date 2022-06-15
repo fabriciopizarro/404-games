@@ -11,6 +11,7 @@ const Home = () => {
            <NewGames/>
            <Explora/>
            <NewGames/>
+           <NewGames/>
            <JuegosGratuitos/>
            <Promocion/>
         </>

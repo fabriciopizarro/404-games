@@ -22,6 +22,8 @@
 
 .header-nav__logo {
     height: 100%;
+    border-radius: 50%;
+
 }
 
 .header-nav__icon-container {

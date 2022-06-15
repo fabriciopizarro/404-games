@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const JuegosGratuitos = () => {
     return (
         <section>
-            <div class="container-sm bg-dark rounded mt-4 px-4">
+            <div class="container-sm rounded mt-4 px-4">
 
                 <div class="row">
 
@@ -52,7 +52,6 @@ const JuegosGratuitos = () => {
                                     </div>
                                     <div class="mt-3 ">
                                         <small class="text-light">Assassin's CreedValhalla</small>
-                                        <p class="text-muted">Gratis hasta el 07 abr a la(s) 10:00</p>
                                     </div>
                                 </div>
 
@@ -67,7 +66,6 @@ const JuegosGratuitos = () => {
                                     </div>
                                     <div class="mt-3">
                                         <small class="text-light">Fallout 76</small>
-                                        <p class=" text-muted">Gratis hasta el 07 abr a la(s) 10:00</p>
                                     </div>
                                 </div>
 
@@ -82,7 +80,6 @@ const JuegosGratuitos = () => {
                                     </div>
                                     <div class="mt-3">
                                        <small class="text-light">Brothers: A Tale of Two Sons</small>
-                                       <p class="text-muted">Gratis del 07 abr al 14 abr</p>
                                     </div>
                                 </div>
 
@@ -97,7 +94,6 @@ const JuegosGratuitos = () => {
                                     </div>
                                     <div class="mt-3">
                                         <small class="text-light">The Vanishing of Ethan Carter</small>
-                                        <p class="text-muted">Gratis del 07 abr al 14 abr</p>
                                     </div>
                                 </div>
 

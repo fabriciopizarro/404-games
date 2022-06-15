@@ -24,36 +24,23 @@ const NewGames = () => {
                         <p className="pedidos__container-data-titulo">Football Manager 2022</p>
                     </div>
                     <div className="pedidos__container-button-container">
-                        <a className="pedidos__container-button" href="#">- 20% Dcto.</a>
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
+                        <a className="pedidos__container-button" href="#">Añadir al carrito</a>
+
                         <p className="pedidos-precio">PEN 79.00</p>
                     </div>
                 </section>
                 
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/undefined/offer/ACOD_Portrait-552x576-64d0966bcf63c374163a5b920f68b253.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <a className="pedidos__container-button" href="#">- 20% Dcto.</a>
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <p className="pedidos-precio">PEN 79.00</p>
-                    </div>
-                </section>
-                
+               
                 <section className="pedidos__producto animate__animated animate__backInLeft">
                     <figure className="pedidos__imagen">
                         <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/undefined/offer/S2_ACOD-1280x1440-621a727d381ffe0cffe869c1e23bc741.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
                     </figure>
                     <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
+                        <p className="pedidos__container-data-titulo">Assassins creed Origins</p>
                     </div>
                     <div className="pedidos__container-button-container">
-                        <a className="pedidos__container-button" href="#">- 20% Dcto.</a>
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
+                        <a className="pedidos__container-button" href="#">Añadir al carrito</a>
+
                         <p className="pedidos-precio">PEN 79.00</p>
                     </div>
                 </section>
@@ -63,11 +50,11 @@ const NewGames = () => {
                         <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/offer/b6b2ef0cc19a4adaaa1cf6c7ed000dfa/EGS_GodfallUltimateEdition_CounterplayGames_Editions_S2_1200x1600-ac41b1de47d9dcad22626c856e5dd598?h=854&resize=1&w=640" alt="imagen de video juego"/>
                     </figure>
                     <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
+                        <p className="pedidos__container-data-titulo">Godfall: Ultimate Edition</p>
                     </div>
                     <div className="pedidos__container-button-container">
-                        <a className="pedidos__container-button" href="#">- 20% Dcto.</a>
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
+                        <a className="pedidos__container-button" href="#">Añadir al carrito</a>
+
                         <p className="pedidos-precio">PEN 79.00</p>
                     </div>
                 </section>
@@ -77,11 +64,11 @@ const NewGames = () => {
                         <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/1368a7f14c3344bbaededbae528fafed/offer/EGS_DeadCells_MotionTwin_S2-1200x1600-34d9d5ebca89e17e0a26ddb2cb158b75.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
                     </figure>
                     <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
+                        <p className="pedidos__container-data-titulo">DeadCells</p>
                     </div>
                     <div className="pedidos__container-button-container">
-                        <a className="pedidos__container-button" href="#">- 20% Dcto.</a>
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
+                        <a className="pedidos__container-button" href="#">Añadir al carrito</a>
+
                         <p className="pedidos-precio">PEN 79.00</p>
                     </div>
                 </section>
@@ -91,11 +78,11 @@ const NewGames = () => {
                         <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/2deb44109e22450f93bd3bc28d2609f2/download-nowhere-prophet-offer-dwhj1.png?h=854&resize=1&w=640" alt="imagen de video juego"/>
                     </figure>
                     <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
+                        <p className="pedidos__container-data-titulo">Nowhere Prophet</p>
                     </div>
                     <div className="pedidos__container-button-container">
-                        <a className="pedidos__container-button" href="#">- 20% Dcto.</a>
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
+                        <a className="pedidos__container-button" href="#">Añadir al carrito</a>
+
                         <p className="pedidos-precio">PEN 79.00</p>
                     </div>
                 </section>
@@ -105,11 +92,11 @@ const NewGames = () => {
                         <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/cb90945c8de248e39d4ca0a61a2175ea/download-rogue-invader-offer-dqafx.png?h=854&resize=1&w=640" alt="imagen de video juego"/>
                     </figure>
                     <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
+                        <p className="pedidos__container-data-titulo">Rogue Invader</p>
                     </div>
                     <div className="pedidos__container-button-container">
-                        <a className="pedidos__container-button" href="#">- 20% Dcto.</a>
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
+                        <a className="pedidos__container-button" href="#">Añadir al carrito</a>
+
                         <p className="pedidos-precio">PEN 79.00</p>
                     </div>
                 </section>
@@ -119,11 +106,11 @@ const NewGames = () => {
                         <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/92e27e09d324479a8179d955f0e322e9/download-he-will-shoot-offer-nossq.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
                     </figure>
                     <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
+                        <p className="pedidos__container-data-titulo">He will shoot</p>
                     </div>
                     <div className="pedidos__container-button-container">
-                        <a className="pedidos__container-button" href="#">- 20% Dcto.</a>
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
+                        <a className="pedidos__container-button" href="#">Añadir al carrito</a>
+
                         <p className="pedidos-precio">PEN 79.00</p>
                     </div>
                 </section>
@@ -133,11 +120,11 @@ const NewGames = () => {
                         <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt/7bbe5d88-253c-4584-b195-ccd4703bc043/download-flat-heroes-offer-45db2c03.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
                     </figure>
                     <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
+                        <p className="pedidos__container-data-titulo">Flat heroes</p>
                     </div>
                     <div className="pedidos__container-button-container">
-                        <a className="pedidos__container-button" href="#">- 20% Dcto.</a>
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
+                        <a className="pedidos__container-button" href="#">Añadir al carrito</a>
+
                         <p className="pedidos-precio">PEN 79.00</p>
                     </div>
                 </section>
@@ -147,14 +134,30 @@ const NewGames = () => {
                         <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/16546f00799e4658b63d345e17ec0243/download-janitor-bleeds-offer-tdqm9.png?h=854&resize=1&w=640" alt="imagen de video juego"/>
                     </figure>
                     <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
+                        <p className="pedidos__container-data-titulo">Janitor Bleeds</p>
                     </div>
                     <div className="pedidos__container-button-container">
-                        <a className="pedidos__container-button" href="#">- 20% Dcto.</a>
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
+                        <a className="pedidos__container-button" href="#">Añadir al carrito</a>
+
                         <p className="pedidos-precio">PEN 79.00</p>
                     </div>
                 </section>
+
+                <section className="pedidos__producto animate__animated animate__backInLeft">
+                    <figure className="pedidos__imagen">
+                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/offer/65a9273ec61f4bb6b94461eb1ce8ec23/EGS_PCBuildingSimulator2_SpiralHouseLtd_S2_1200x1600-9d894c93110374afb5ff0f666a05c792?h=854&resize=1&w=640" alt="imagen de video juego"/>
+                    </figure>
+                    <div className="pedidos__container">
+                        <p className="pedidos__container-data-titulo">PC Building Simulator</p>
+                    </div>
+                    <div className="pedidos__container-button-container">
+                        <a className="pedidos__container-button" href="#">Añadir al carrito</a>
+
+                        <p className="pedidos-precio">PEN 79.00</p>
+                    </div>
+                </section>
+                
+
             </div>
         </div>
     </section>

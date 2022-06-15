@@ -37,25 +37,25 @@ const Footer = () => {
                     <div class="footer-credits-up__links-icons">
                         <ul class="footer-credits-up__links-icons">
                             <li class="footer-credits-up__links">
-                                <a href="https://www.youtube.com/channel/UC5Qk8mWBwtMyEj7iQQYRk1A"
+                                <a href="https://www.youtube.com/watch?v=avzaRIJDVlI&ab_channel=DaehanChoi"
                                     class="footer-credits-up__link-icon">
                                     <img src={youtube} alt="youtubeIcon" class="footer-credits-up__icon" />
                                 </a>
                             </li>
                             <li class="footer-credits-up__links">
-                                <a href="https://www.facebook.com/epicgames" class="footer-credits-up__link-icon">
+                                <a href="https://www.facebook.com" class="footer-credits-up__link-icon">
                                     <img src={facebook} alt="facebookIcon" class="footer-credits-up__icon" />
                                 </a>
                             </li>
                             <li class="footer-credits-up__links">
-                                <a href="https://www.instagram.com/epicgames/?hl=es"
+                                <a href="https://www.instagram.com"
                                     class="footer-credits-up__link-icon">
                                     <img src={instagram} alt="instagramIcon"
                                         class="footer-credits-up__icon" />
                                 </a>
                             </li>
                             <li class="footer-credits-up__links">
-                                <a href="https://twitter.com/epicgameses?lang=es" class="footer-credits-up__link-icon">
+                                <a href="https://twitter.com" class="footer-credits-up__link-icon">
                                     <img src={twiter} alt="twitterIcon" class="footer-credits-up__icon" />
                                 </a>
                             </li>
@@ -164,39 +164,8 @@ const Footer = () => {
                             comerciales de sus respectivos proietarios. Las transacciones fuera de EE.UU. se
                             realizan a través de 404 Games International, S.à r.l.
                         </p>
-                    </div>
-
-                    <ul class="footer-credits-down__links-item-list">
-                        <li class="footer-credits-down__link-item">
-                            <a href="https://www.epicgames.com/site/es-MX/tos"
-                                class="footer-credits-down__link">Términos de servicio</a>
-                        </li>
-                        <li class="footer-credits-down__link-item">
-                            <a href="https://www.epicgames.com/site/es-MX/privacypolicy"
-                                class="footer-credits-down__link">Política de
-                                privacidad</a>
-                        </li>
-                        <li class="footer-credits-down__link-item">
-                            <a href="https://www.epicgames.com/site/es-MX/store-refund-policy"
-                                class="footer-credits-down__link">Política de
-                                reembolso de la tienda</a>
-                        </li>
-                    </ul>
-
-
-                    <ul class="footer-credits-down__links-logo-list">
-                        <li class="footer-credits-down__links-logo">
-                            <a href="https://store.epicgames.com/es-MX/" class="footer-credits-down__link-logo">
-                                <img src={egLogo} alt="epicGamesLogo" class="footer-credits-down__logo" />
-                            </a>
-                        </li>
-                        <li class="footer-credits-down__links-logo">
-                            <a href="https://www.unrealengine.com/en-US/" class="footer-credits-down__link-logo">
-                                <img src={urLogo} alt="unrealLogo" class="footer-credits-down__logo" />
-                            </a>
-                        </li>
-                    </ul>
-
+                    </div>      
+                   
                 </article>
             </section>
         </article>

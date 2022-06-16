@@ -10,9 +10,6 @@ const NewGames = () => {
                 <h2 className="pedidos__titulo">Más vendidos 
                 <svg className="pedidos_vineta" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 9"><path stroke="currentColor" d="M1 1l3 3.5L1 8" fill="none" fill-rule="evenodd"></path></svg>
                 </h2>
-                <div className="pedidos_vineta">
-                    
-                </div>
             </div>
         
         <div className="pedidos__div">
@@ -25,21 +22,6 @@ const NewGames = () => {
                     </figure>
                     <div className="pedidos__container">
                         <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <a className="pedidos__container-button" href="#">Añadir al carrito</a>
-
-                        <p className="pedidos-precio">PEN 79.00</p>
-                    </div>
-                </section>
-                
-               
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/undefined/offer/S2_ACOD-1280x1440-621a727d381ffe0cffe869c1e23bc741.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Assassins creed Origins</p>
                     </div>
                     <div className="pedidos__container-button-container">
                         <a className="pedidos__container-button" href="#">Añadir al carrito</a>
@@ -160,6 +142,34 @@ const NewGames = () => {
                     </div>
                 </section>
                 
+                <section className="pedidos__producto animate__animated animate__backInLeft">
+                    <figure className="pedidos__imagen">
+                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/offer/47bf168a2214456fb7bd4c217e2a4fd6/EGS_DisneySpeedstorm_Gameloft_S2_1200x1600-c6ea539d688767a32db247f951875ace?h=854&resize=1&w=640"/>
+                    </figure>
+                    <div className="pedidos__container">
+                        <p className="pedidos__container-data-titulo">Assassins creed Origins</p>
+                    </div>
+                    <div className="pedidos__container-button-container">
+                        <a className="pedidos__container-button" href="#">Añadir al carrito</a>
+
+                        <p className="pedidos-precio">PEN 79.00</p>
+                    </div>
+                </section>
+                
+                <section className="pedidos__producto animate__animated animate__backInLeft">
+                    <figure className="pedidos__imagen">
+                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/offer/933ada2ec45e4184ae840d64c99e0ba9/RoCo_EGS_2_1200x1600-3f66364da32c8695fa9fcb8c7093f190?h=854&resize=1&w=640"/>
+                    </figure>
+                    <div className="pedidos__container">
+                        <p className="pedidos__container-data-titulo">Assassins creed Origins</p>
+                    </div>
+                    <div className="pedidos__container-button-container">
+                        <a className="pedidos__container-button" href="#">Añadir al carrito</a>
+
+                        <p className="pedidos-precio">PEN 79.00</p>
+                    </div>
+                </section>
+
 
             </div>
         </div>

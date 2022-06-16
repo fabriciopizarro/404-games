@@ -20,16 +20,17 @@
   
 .pedidos__div {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
     padding: 0 1rem;
   }
   
-  .pedidos__titulo-container{
+.pedidos__titulo-container{
     text-align: left;
-    margin-left: 7%;
-  }
+    margin-left: 11.2%;
+  } 
   
 .pedidos__titulo {
     font-size: 1.4rem;
@@ -39,7 +40,7 @@
     font-weight: 300;
   }
 
-  .pedidos_vineta{
+.pedidos_vineta{
     width: 0.5rem; 
     margin-left: .5rem;
     margin-bottom: .2rem;
@@ -47,9 +48,11 @@
   
 .pedidos__pedidos {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    align-content: space-between;
+    /* justify-content: center; */
     gap: 2rem;
     width: 80%;
   }
@@ -68,14 +71,14 @@
     border-bottom-left-radius: 5px;
     padding-bottom: 0.2rem;
     overflow: hidden;
-    transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+    transition: all 0.29s cubic-bezier(0, 0, 0.5, 1);
     box-shadow: 4px 2px 6px var(--box-shadow);
   }
   
 .pedidos__producto:hover {
     /* box-shadow: 0 0 0.5rem var(--highlight-color-1), 0 0 1rem var(--highlight-color-1), 0 0 1.5rem var(--highlight-color-1); */
     box-shadow: 2px 4px 12px var(--box-shadow);
-    transform: scale(1.01);
+    transform: scale(1.025);
   }
   
 .pedidos__imagen {
@@ -148,10 +151,15 @@
       margin: auto;
     } */
 
-.pedidos__pedidos {
+/* .pedidos__pedidos {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+/* .pedidos__pedidos {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
+    } */
 .footer-nav {
       padding: 0;
       max-width: 1024px;

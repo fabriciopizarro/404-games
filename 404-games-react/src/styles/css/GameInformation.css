@@ -1,0 +1,39 @@
+.container-section {
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0 auto;
+}
+  
+.card{
+    text-align: center; border: none; border-radius: 5px;-webkit-box-shadow: 12px 14px 22px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 14px 22px 2px rgba(0,0,0,0.75);
+    box-shadow: 12px 14px 22px 2px rgba(0,0,0,0.75);
+    margin-bottom: 100px;
+}
+
+.imgo{
+    width:230;
+    height:230;
+}
+
+.cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://i.pinimg.com/originals/53/aa/f6/53aaf6011bba6d6bb0499e1eef12c26d.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height:350px;
+        
+    /* min-height: 100vh; */
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-shadow:
+        0 0 0.5rem black,
+        0 0 1rem black,
+        0 0 1.5rem black,
+        0 0 2rem black,
+        0 0 2.5rem black,
+        0 0 3rem black;
+}

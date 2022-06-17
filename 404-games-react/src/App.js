@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Tienda from './pages/Tienda';
 import FormPago from './pages/FormPago';
+import GameInformation from './pages/GameInformation';
 import JuegosGratis from './pages/JuegosGratis';
 import JuegosPPT from './pages/JuegoPPT';
 import Crear from './pages/Formulario/Crear';
@@ -21,6 +22,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/tienda/formPago" element={<FormPago/>} />
+          <Route path="/GameInformation" element={<GameInformation/>} />
           <Route path="/tienda" element={<Tienda/>} />
           <Route path="/free" element={<JuegosGratis/>} />
           <Route path="/pptGame" element={<JuegosPPT/>} />

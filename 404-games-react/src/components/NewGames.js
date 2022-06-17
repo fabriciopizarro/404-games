@@ -1,5 +1,8 @@
 import '../styles/css/Games.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {
+    Link
+} from 'react-router-dom';
 
 const NewGames = () => {
     return (
@@ -24,7 +27,7 @@ const NewGames = () => {
                         <p className="pedidos__container-data-titulo">Football Manager 2022</p>
                     </div>
                     <div className="pedidos__container-button-container">
-                        <a className="pedidos__container-button" href="#">Añadir al carrito</a>
+                        <Link className="pedidos__container-button" to="/GameInformation">Añadir al carrito</Link>
 
                         <p className="pedidos-precio">PEN 79.00</p>
                     </div>
@@ -38,7 +41,7 @@ const NewGames = () => {
                         <p className="pedidos__container-data-titulo">Godfall: Ultimate Edition</p>
                     </div>
                     <div className="pedidos__container-button-container">
-                        <a className="pedidos__container-button" href="#">Añadir al carrito</a>
+                        <Link className="pedidos__container-button" to="/GameInformation">Añadir al carrito</Link>
 
                         <p className="pedidos-precio">PEN 79.00</p>
                     </div>
@@ -52,7 +55,7 @@ const NewGames = () => {
                         <p className="pedidos__container-data-titulo">DeadCells</p>
                     </div>
                     <div className="pedidos__container-button-container">
-                        <a className="pedidos__container-button" href="#">Añadir al carrito</a>
+                        <Link className="pedidos__container-button" to="/GameInformation">Añadir al carrito</Link>
 
                         <p className="pedidos-precio">PEN 79.00</p>
                     </div>
@@ -66,7 +69,7 @@ const NewGames = () => {
                         <p className="pedidos__container-data-titulo">Nowhere Prophet</p>
                     </div>
                     <div className="pedidos__container-button-container">
-                        <a className="pedidos__container-button" href="#">Añadir al carrito</a>
+                        <Link className="pedidos__container-button" to="/GameInformation">Añadir al carrito</Link>
 
                         <p className="pedidos-precio">PEN 79.00</p>
                     </div>
@@ -80,7 +83,7 @@ const NewGames = () => {
                         <p className="pedidos__container-data-titulo">Rogue Invader</p>
                     </div>
                     <div className="pedidos__container-button-container">
-                        <a className="pedidos__container-button" href="#">Añadir al carrito</a>
+                        <Link className="pedidos__container-button" to="/GameInformation">Añadir al carrito</Link>
 
                         <p className="pedidos-precio">PEN 79.00</p>
                     </div>
@@ -94,7 +97,7 @@ const NewGames = () => {
                         <p className="pedidos__container-data-titulo">He will shoot</p>
                     </div>
                     <div className="pedidos__container-button-container">
-                        <a className="pedidos__container-button" href="#">Añadir al carrito</a>
+                        <Link className="pedidos__container-button" to="/GameInformation">Añadir al carrito</Link>
 
                         <p className="pedidos-precio">PEN 79.00</p>
                     </div>
@@ -108,7 +111,7 @@ const NewGames = () => {
                         <p className="pedidos__container-data-titulo">Flat heroes</p>
                     </div>
                     <div className="pedidos__container-button-container">
-                        <a className="pedidos__container-button" href="#">Añadir al carrito</a>
+                        <Link className="pedidos__container-button" to="/GameInformation">Añadir al carrito</Link>
 
                         <p className="pedidos-precio">PEN 79.00</p>
                     </div>
@@ -122,7 +125,7 @@ const NewGames = () => {
                         <p className="pedidos__container-data-titulo">Janitor Bleeds</p>
                     </div>
                     <div className="pedidos__container-button-container">
-                        <a className="pedidos__container-button" href="#">Añadir al carrito</a>
+                        <Link className="pedidos__container-button" to="/GameInformation">Añadir al carrito</Link>
 
                         <p className="pedidos-precio">PEN 79.00</p>
                     </div>
@@ -136,7 +139,7 @@ const NewGames = () => {
                         <p className="pedidos__container-data-titulo">PC Building Simulator</p>
                     </div>
                     <div className="pedidos__container-button-container">
-                        <a className="pedidos__container-button" href="#">Añadir al carrito</a>
+                        <Link className="pedidos__container-button" to="/GameInformation">Añadir al carrito</Link>
 
                         <p className="pedidos-precio">PEN 79.00</p>
                     </div>
@@ -150,7 +153,7 @@ const NewGames = () => {
                         <p className="pedidos__container-data-titulo">Assassins creed Origins</p>
                     </div>
                     <div className="pedidos__container-button-container">
-                        <a className="pedidos__container-button" href="#">Añadir al carrito</a>
+                        <Link className="pedidos__container-button" to="/GameInformation">Añadir al carrito</Link>
 
                         <p className="pedidos-precio">PEN 79.00</p>
                     </div>
@@ -164,7 +167,7 @@ const NewGames = () => {
                         <p className="pedidos__container-data-titulo">Assassins creed Origins</p>
                     </div>
                     <div className="pedidos__container-button-container">
-                        <a className="pedidos__container-button" href="#">Añadir al carrito</a>
+                        <Link className="pedidos__container-button" to="/GameInformation">Añadir al carrito</Link>
 
                         <p className="pedidos-precio">PEN 79.00</p>
                     </div>

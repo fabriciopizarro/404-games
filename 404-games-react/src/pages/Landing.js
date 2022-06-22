@@ -14,23 +14,23 @@ const Landing = () => {
     return (
         <>
             <header className="header-landing" id="header">
-                <nav className="header-nav">
-                    <div className="header-nav-container">
-                        <a className="header-nav__logo-container" href="#">
+                <nav className="header-landingnav">
+                    <div className="header-landingnav-container">
+                        <a className="header-landingnav__logo-container" href="#">
                             <img
                                 src="https://i.postimg.cc/Hn9C7xTX/logo-removebg-blanco.png"
 
                                 alt="Logo 404 - Games"
-                                className="header-nav__logo"
+                                className="header-landingnav__logo"
                             />
                         </a>
-                        <div className="header__select-ancor-container">
-                            {/* <!-- <select className="header-select" name="" id="">
+                        <Link className="header__select-ancor-container" to="/iniciar">
+                            {/* <!-- <select className="header-landingselect" name="" id="">
               <option value="Español">Español</option>
               <option value="English">English</option>
             </select> --> */}
-                            <a className="header-ancor" href="">Iniciar sesión</a>
-                        </div>
+                            <a className="header-landingancor" href="">Iniciar sesión</a>
+                        </Link>
                     </div>
                 </nav>
             </header>
@@ -47,12 +47,12 @@ const Landing = () => {
                         </p>
                         <div className="main-correo__container">
                             <div className="main-buttom__container">
-                                <button href="/formulario" className="main-buttom" type="submit">
+                                <Link className="main-buttom" to="/crear" >
                                     <span className="main-buttom-text"> Crear cuenta </span>
                                     <span className="main-buttom-i">
                                         <i className="fas fa-angle-right"></i>
                                     </span>
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -146,7 +146,7 @@ const Landing = () => {
                             </h2>
                             <div
                                 id="collapseOne"
-                                className="accordion-collapse collapse show"
+                                className="accordion-collapse collapse {show}"
                                 aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample"
                             >

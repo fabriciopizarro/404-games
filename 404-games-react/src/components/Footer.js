@@ -88,29 +88,29 @@ const Footer = () => {
 
                             
                             <li class="footer-credits-up__links-list">
-                                <a href="https://www.epicgames.com/site/es-ES/careers"
+                                <a href="https://www.404-games.com/site/es-ES/careers"
                                     class="footer-credits-up__link">Empleo</a>
                             </li>
                             <li class="footer-credits-up__links-list">
-                                <a href="https://www.epicgames.com/site/es-ES/about"
+                                <a href="https://www.404-games.com/site/es-ES/about"
                                     class="footer-credits-up__link">Empresa</a>
                             </li>
                             
                             <li class="footer-credits-up__links-list">
-                                <a href="https://www.epicgames.com/site/es-ES/ux"
+                                <a href="https://www.404-games.com/site/es-ES/ux"
                                     class="footer-credits-up__link">Investigación</a>
                             </li>
                             <li class="footer-credits-up__links-list">
-                                <a href="https://store.epicgames.com/es-ES/eula" class="footer-credits-up__link">CLUF
+                                <a href="https://store.404-games.com/es-ES/eula" class="footer-credits-up__link">CLUF
                                     tienda</a>
                             </li>
                             <li class="footer-credits-up__links-list">
-                                <a href="https://dev.epicgames.com/en-US/home" class="footer-credits-up__link">Servicios
+                                <a href="https://dev.404-games.com/en-US/home" class="footer-credits-up__link">Servicios
                                     en linea</a>
                             </li>
                             
                             <li class="footer-credits-up__links-list">
-                                <a href="https://www.epicgames.com/site/es-ES/news" class="footer-credits-up__link">Epic
+                                <a href="https://www.404-games.com/site/es-ES/news" class="footer-credits-up__link">Epic
                                     Newsroom</a>
                             </li>
                         </ul>
@@ -121,27 +121,27 @@ const Footer = () => {
                     <div class="footer-credits-up__made-list-content">
                         <ul class="footer-credits-up__made-list">
                             <li class="footer-credits-up__links-list">
-                                <a href="https://www.epicgames.com/battlebreakers/es-ES/home"
+                                <a href=""
                                     class="footer-credits-up__link">Battle Breakers</a>
                             </li>
                             <li class="footer-credits-up__links-list">
-                                <a href="https://www.epicgames.com/fortnite/es-ES/home"
+                                <a href=""
                                     class="footer-credits-up__link">Fornite</a>
                             </li>
                             <li class="footer-credits-up__links-list">
-                                <a href="https://www.epicgames.com/infinityblade/en-US/home"
+                                <a href=""
                                     class="footer-credits-up__link">Infinite Blade</a>
                             </li>
                             <li class="footer-credits-up__links-list">
-                                <a href="https://www.epicgames.com/roborecall/en-US/home"
+                                <a href=""
                                     class="footer-credits-up__link">Robo Recall</a>
                             </li>
                             <li class="footer-credits-up__links-list">
-                                <a href="https://store.epicgames.com/es-MX/p/shadow-complex"
+                                <a href=""
                                     class="footer-credits-up__link">Shadow Complex</a>
                             </li>
                             <li class="footer-credits-up__links-list">
-                                <a href="https://www.epicgames.com/unrealtournament/en-US/"
+                                <a href=""
                                     class="footer-credits-up__link">Unreal Tournament</a>
                             </li>
                         </ul>
@@ -157,11 +157,10 @@ const Footer = () => {
                     <div class="footer-credits-down__paragraph-content">
                         <p class="footer-credits-down__paragraph">
                             &copy; 2022, 404 Games, Inc., 404 Games, el
-                            logotipo de 404 Games, Unreal, Unreal Engine, el
-                            logotipo de Unreal Engine, Unreal Tournament y el logotipo de Unreal Tournament son
-                            marcas comerciales o marcas registradas por 404 Games, Inc. tanto en Estados Unidos de
-                            América com en el resto del mundo. Otras marcas o nombres de productos son marcas
-                            comerciales de sus respectivos proietarios. Las transacciones fuera de EE.UU. se
+                            logotipo de 404 Games, es una
+                            marca comercial o marca registrada por 404 Games, Inc. tanto en Perú com en el 
+                            resto del mundo. Otras marcas o nombres de productos son marcas
+                            comerciales de sus respectivos proietarios. Las transacciones fuera de Perú se
                             realizan a través de 404 Games International, S.à r.l.
                         </p>
                     </div>      

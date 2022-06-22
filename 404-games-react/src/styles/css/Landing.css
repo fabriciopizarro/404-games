@@ -35,17 +35,17 @@
   transition: all 0.5s;
   z-index: 999;
 }
-.header--scroll {
+.header-landing-scroll {
   background-color: black;
   position: fixed;
 }
 
-.header-nav {
+.header-landingnav {
   padding: 0.5rem 0;
   transition: all 0.5s;
 }
 
-.header-nav-container {
+.header-landingnav-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -54,28 +54,29 @@
   margin: 0 auto;
 }
 
-.header-nav__logo-container {
+.header-landingnav__logo-container {
   display: flex;
   height: 4.6rem;
 }
 
-.header-nav__logo {
+.header-landingnav__logo {
   height: 100%;
   /* height: 100%; */
 }
 
 @media (max-width: 854px) {
-  .header-nav__logo-container {
+  .header-landingnav__logo-container {
     height: 3rem;
   }
 }
 
 .header__select-ancor-container {
+  text-decoration: none;
   display: flex;
   gap: 1.5rem;
 }
 
-.header-select {
+.header-landingselect {
   background-color: var(--background-color);
   color: var(--text-color);
   font-weight: 500;
@@ -84,7 +85,7 @@
   padding: 0.5rem 0.5rem;
 }
 
-.header-ancor {
+.header-landingancor {
   height: 2rem;
   background-color: var(--button-color);
   line-height: normal;
@@ -99,17 +100,17 @@
   align-items: center;
   justify-content: center;
 }
-.header-ancor:hover {
+.header-landingancor:hover {
   background-color: var(--button-hover-color);
   color: var(--text-color);
 }
 
 @media (max-width: 863px) {
-  .header-ancor {
+  .header-landingancor {
     font-size: 0.85em;
     padding: 1px 4px;
   }
-  .header-nav {
+  .header-landingnav {
     padding: 0;
   }
 }
@@ -222,6 +223,7 @@
   } */
 
 .main-buttom {
+  text-decoration: none;
   width: 12.3rem;
   height: 48px;
   background-color: var(--button-color);
@@ -827,7 +829,7 @@
 }
 
 @media (max-width: 500px) {
-  .header-nav-container {
+  .header-landingnav-container {
     margin: 15px;
   }
 

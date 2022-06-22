@@ -29,13 +29,8 @@ const Landing = () => {
               <option value="Español">Español</option>
               <option value="English">English</option>
             </select> --> */}
-<<<<<<< HEAD
-                            <Link className="header-ancor" to="/iniciar">Iniciar sesión</Link>
-                        </div>
-=======
                             <a className="header-landingancor" href="">Iniciar sesión</a>
                         </Link>
->>>>>>> 3158c8d0bd0a476ede22fca138aa508c6ee5f3a3
                     </div>
                 </nav>
             </header>

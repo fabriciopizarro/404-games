@@ -9,6 +9,7 @@ import JuegosPPT from './pages/JuegoPPT';
 import Crear from './pages/Formulario/Crear';
 import Iniciar from './pages/Formulario/Iniciar';
 import Landing from './pages/Landing';
+import Confirm from './pages/Confirm';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter as Router,
@@ -31,6 +32,7 @@ function App() {
         <Routes>
           <Route path="/tienda/formPago" element={<FormPago />} />
           <Route path="/GameInformation" element={<GameInformation />} />
+          <Route path="/confirm" element={<Confirm />} />
           <Route path="/tienda" element={<Tienda />} />
           <Route path="/free" element={<JuegosGratis />} />
           <Route path="/pptGame" element={<JuegosPPT />} />

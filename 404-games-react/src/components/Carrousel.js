@@ -16,7 +16,7 @@ const Carrousel = () => {
                         {/* <video className="main-video" autoplay="autoplay" playsinline="" muted="true" loop="true">
                             <source src="https://cdn2.unrealengine.com/homepage-opener-5a55a50aaa4c.mp4" type="video/mp4" />
                         </video> */}
-                        <img src="https://cdn2.unrealengine.com/egs-genshin-impact-2-6-desktop-v2-1248x702-1248x702-7826fd8eb9e9.png?h=1080&resize=1&w=1920" class="d-block w-100" alt="..." />
+                        <img src="https://cdn2.unrealengine.com/epichomepage-artboard-1-1920x1080-329693365.jpg?resize=1&w=1920" class="d-block w-100" alt="..." />
 
                         <div class="carousel-caption d-none d-md-block">
                             <div class="carousel-play">

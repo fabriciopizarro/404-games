@@ -1,0 +1,93 @@
+Name: Football Manager 2022
+Price: 60
+Image: https://404games.s3.sa-east-1.amazonaws.com/Football-Manager-2022.webp?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFAaCXVzLWVhc3QtMSJHMEUCIDMiqAyaFekcqM88p3pz1NUdUaT74yx34j4IlCRZyVa1AiEA8p99zVAiPaAVPRZdQVU0mfjmTJ5peMKzAvINyCYMMqEq5AIIaRAAGgw1NDIwMDQ3ODEyMzkiDMjA8SGM4H2jWb1dNCrBAmxslxnjf4a%2BT24gvwPx2n0Rn6CvWzDtdjp32t9EWHSfKT2fs76YgXfy2X04Ug8zXYTSfx0HwFqKi2EPCU4jzeHyCn4%2B4Zg2gHy3f8ATLqp1Noqy2JpDpAKB7uiD%2B5qby41AYdlHAvLXKbL4CYojIVlacZEzTG9RR5lCwEXpQI%2FfUPcFW3%2BoVX77Wx0IIKrRaomkJYeV6Mhy2v1wh9QehSQTBx%2BByOE1zHcyvI8mHPOyDEcVZAZLlJ839Ol6vgYlxuEimE3lmuve75cMZ7Yh0jPM71QinyM6LvOeLxODmwmsz6zjsFJDNkLGhgwb30F27yKge6S9wlkumcb5aIw4Q8dL6cKpa374%2B5uSmbnkJwFTcZTMp2HLOC5kF4KXtIATh8%2FhXufLNO1P2gJt1PB6FOKouEfHCgakqwQueXxDzoGFUzDRyM6VBjqzAr9LZ0u8OzVqIMRnVjXvu8o%2Bk219tNU6rOcS9R4hd4EWXQUB0IURk%2FXfuF7PvcCA9wzaQPv%2F0%2BaJXU%2BtCPeNaNqiL4UD0aOYoBO8gkG%2F9vNp0h8LdQcIXcdIpT7gIwU65Ijfsu46yFzT6huo7DpEIGuAIVQmDYUxLcdDyAbkIs5NxZpxUB%2F%2F6%2FZ6b41%2Bap5EGRanpZarq5v%2BYTayW50%2BhvSlz6jqM7JyXKWVRtAOGpG9hv8rZ3GR25hOQlkSZcgalZLwUc%2BTCOUWPoQxbo0pieWegD8WeqWkf6oLNlitDG1puS5kWF08HcyZWXUyXCwJrqmb1KqB64LSbp%2FIK9kDjwJgdhGJDYh2AZZsUNOXkOa%2BeZ20jKfccolsowqqnWCXDadW1m%2FJLNiPjo%2F4V640SIJaO9o%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220623T025430Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAX4MQAUC3QE26MEP5%2F20220623%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Signature=6c24ca9a856e946006fc786002ad7c587d00a719b7e9fb8d2e7e2fd209c2ecc1
+Video_profile_cover = <iframe width="560" height="315" src="https://www.youtube.com/embed/_q9Js7h_I5w?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Mode: multiplayer
+Platforms: PC
+Genre: sports
+Description: elije a tus equipos favoritos y juega partidas de futbol online con tus amigos.
+
+Name: Godfall Ultimate Edition
+Price: 50
+Image: https://404games.s3.sa-east-1.amazonaws.com/GodfallUltimateEdition.webp?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFAaCXVzLWVhc3QtMSJHMEUCIDMiqAyaFekcqM88p3pz1NUdUaT74yx34j4IlCRZyVa1AiEA8p99zVAiPaAVPRZdQVU0mfjmTJ5peMKzAvINyCYMMqEq5AIIaRAAGgw1NDIwMDQ3ODEyMzkiDMjA8SGM4H2jWb1dNCrBAmxslxnjf4a%2BT24gvwPx2n0Rn6CvWzDtdjp32t9EWHSfKT2fs76YgXfy2X04Ug8zXYTSfx0HwFqKi2EPCU4jzeHyCn4%2B4Zg2gHy3f8ATLqp1Noqy2JpDpAKB7uiD%2B5qby41AYdlHAvLXKbL4CYojIVlacZEzTG9RR5lCwEXpQI%2FfUPcFW3%2BoVX77Wx0IIKrRaomkJYeV6Mhy2v1wh9QehSQTBx%2BByOE1zHcyvI8mHPOyDEcVZAZLlJ839Ol6vgYlxuEimE3lmuve75cMZ7Yh0jPM71QinyM6LvOeLxODmwmsz6zjsFJDNkLGhgwb30F27yKge6S9wlkumcb5aIw4Q8dL6cKpa374%2B5uSmbnkJwFTcZTMp2HLOC5kF4KXtIATh8%2FhXufLNO1P2gJt1PB6FOKouEfHCgakqwQueXxDzoGFUzDRyM6VBjqzAr9LZ0u8OzVqIMRnVjXvu8o%2Bk219tNU6rOcS9R4hd4EWXQUB0IURk%2FXfuF7PvcCA9wzaQPv%2F0%2BaJXU%2BtCPeNaNqiL4UD0aOYoBO8gkG%2F9vNp0h8LdQcIXcdIpT7gIwU65Ijfsu46yFzT6huo7DpEIGuAIVQmDYUxLcdDyAbkIs5NxZpxUB%2F%2F6%2FZ6b41%2Bap5EGRanpZarq5v%2BYTayW50%2BhvSlz6jqM7JyXKWVRtAOGpG9hv8rZ3GR25hOQlkSZcgalZLwUc%2BTCOUWPoQxbo0pieWegD8WeqWkf6oLNlitDG1puS5kWF08HcyZWXUyXCwJrqmb1KqB64LSbp%2FIK9kDjwJgdhGJDYh2AZZsUNOXkOa%2BeZ20jKfccolsowqqnWCXDadW1m%2FJLNiPjo%2F4V640SIJaO9o%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220623T025853Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAX4MQAUC3QE26MEP5%2F20220623%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c922269b56b594b4d6097287654691d7cee2382c237b23fd56317ee057ecc8b7
+Video_profile_cover: <iframe width="560" height="315" src="https://www.youtube.com/embed/kY2Rka8uA90?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Mode: single
+Platforms: PS5
+Genre: Action
+Description: Godfall tiene que ver con un combate cuerpo a cuerpo ridículamente atractivo y apretado. El parachoques derecho es tu ataque ligero, el gatillo derecho es tu pesado, el parachoques izquierdo es para usar tu escudo y el gatillo izquierdo es para activar movimientos especiales que están vinculados al arma que estás empuñando actualmente.  
+
+Name: DeadCells
+Price: 60
+Image: https://404games.s3.sa-east-1.amazonaws.com/DeadCells.jpeg?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFAaCXVzLWVhc3QtMSJHMEUCIDMiqAyaFekcqM88p3pz1NUdUaT74yx34j4IlCRZyVa1AiEA8p99zVAiPaAVPRZdQVU0mfjmTJ5peMKzAvINyCYMMqEq5AIIaRAAGgw1NDIwMDQ3ODEyMzkiDMjA8SGM4H2jWb1dNCrBAmxslxnjf4a%2BT24gvwPx2n0Rn6CvWzDtdjp32t9EWHSfKT2fs76YgXfy2X04Ug8zXYTSfx0HwFqKi2EPCU4jzeHyCn4%2B4Zg2gHy3f8ATLqp1Noqy2JpDpAKB7uiD%2B5qby41AYdlHAvLXKbL4CYojIVlacZEzTG9RR5lCwEXpQI%2FfUPcFW3%2BoVX77Wx0IIKrRaomkJYeV6Mhy2v1wh9QehSQTBx%2BByOE1zHcyvI8mHPOyDEcVZAZLlJ839Ol6vgYlxuEimE3lmuve75cMZ7Yh0jPM71QinyM6LvOeLxODmwmsz6zjsFJDNkLGhgwb30F27yKge6S9wlkumcb5aIw4Q8dL6cKpa374%2B5uSmbnkJwFTcZTMp2HLOC5kF4KXtIATh8%2FhXufLNO1P2gJt1PB6FOKouEfHCgakqwQueXxDzoGFUzDRyM6VBjqzAr9LZ0u8OzVqIMRnVjXvu8o%2Bk219tNU6rOcS9R4hd4EWXQUB0IURk%2FXfuF7PvcCA9wzaQPv%2F0%2BaJXU%2BtCPeNaNqiL4UD0aOYoBO8gkG%2F9vNp0h8LdQcIXcdIpT7gIwU65Ijfsu46yFzT6huo7DpEIGuAIVQmDYUxLcdDyAbkIs5NxZpxUB%2F%2F6%2FZ6b41%2Bap5EGRanpZarq5v%2BYTayW50%2BhvSlz6jqM7JyXKWVRtAOGpG9hv8rZ3GR25hOQlkSZcgalZLwUc%2BTCOUWPoQxbo0pieWegD8WeqWkf6oLNlitDG1puS5kWF08HcyZWXUyXCwJrqmb1KqB64LSbp%2FIK9kDjwJgdhGJDYh2AZZsUNOXkOa%2BeZ20jKfccolsowqqnWCXDadW1m%2FJLNiPjo%2F4V640SIJaO9o%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220623T025913Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAX4MQAUC3QE26MEP5%2F20220623%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Signature=ef24808fed2cac2a95d3717a2f7b47bc5dbdecb0e39bb339759dea4d5a57b6df
+Video_profile_cover: <iframe width="560" height="315" src="https://www.youtube.com/embed/RvGaSPTcTxc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Mode: multiplayer
+Platforms: PS5
+Genre: Action
+Description: ¡Dead Cells es un juego de acción y aventura en el que tendrás que explorar una isla y completar el juego en una vuelta sin morir! Cada partida es diferente, ya que la isla cambia cuando mueres.
+
+Name: Nowhere-prophet
+Price: 50
+Image: 
+Image frontpage: 
+Mode: single
+Platforms: PC
+Genre: Action
+Description: videogame
+
+Name: Rogue-invader
+Price: 60
+Image: 
+Image frontpage: 
+Mode: single
+Platforms: mobile
+Genre: Action
+Description: videogame
+
+Name: He will shoot
+Price: 50
+Image: 
+Image frontpage: 
+Mode: single
+Platforms: PC
+Genre: Action
+Description: videogame
+
+Name: Flat heroes
+Price: 60
+Image: 
+Image frontpage: 
+Mode: multiplayer
+Platforms: PC
+Genre: history
+Description: videogame
+
+Name: Janitor Bleeds
+Price: 50
+Image: 
+Image frontpage: 
+Mode: single
+Platforms: PS5
+Genre: history
+Description: videogame
+
+Name: PC Building Simulator 2
+Price: 50
+Image: 
+Image frontpage: 
+Mode: single
+Platforms: PC
+Genre: simulation
+Description: videogame
+
+Name: Disney Speed Storm
+Price: 60
+Image: 
+Image frontpage: 
+Mode: multiplayer
+Platforms: PC
+Genre: racing
+Description: videogame
+
+
+
+

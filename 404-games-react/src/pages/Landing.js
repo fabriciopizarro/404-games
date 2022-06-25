@@ -39,7 +39,7 @@ const Landing = () => {
                 <div className="main-container-container">
                     <div className="main-container">
                         <h1 className="main-h1">
-                            404 - Games.
+                            - 404 Games -
                         </h1>
                         <h3 className="main-p1" id="mainSubtitle">Tus juegos preferidos a solo un click, para todos los dispositivos.</h3>
                         <p className="main-p2">
@@ -194,10 +194,10 @@ const Landing = () => {
 
             <section className="email-address-container">
                 <p className="email__tittle">
-                    ¿Quiéres formar parte de 404 - Games ya? Ingresa tu email para crear una cuenta tener acceso a todos los recursos de la comunidad de 404 - Games.
+                    ¿Quiéres formar parte de 404 - Games ya? crea una cuenta tener acceso a todos los recursos de la comunidad de 404 - Games.
                 </p>
-                <input type="email" placeholder="Email" autocomplete="email" id="id-email" maxlength="50" minlength="5" />
-                <button type="submit">Comenzar</button>
+                {/* <input type="email" placeholder="Email" autocomplete="email" id="id-email" maxlength="50" minlength="5" /> */}
+                <button className='email-address-container button' type="submit">Comenzar</button>
             </section>
 
             {/* <script src="./js/script.js"></script>

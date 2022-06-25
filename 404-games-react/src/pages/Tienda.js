@@ -8,1292 +8,242 @@ const Tienda = () => {
     return (
         <>
 
-<section className="pedidos" id="pedidos" >
-        <div className="pedidos__div">
-            <div className="pedidos__titulo-container">
-                <h2 className="pedidos__titulo">Todos nuestros juegos 
-                <svg xmlns="http://www.w3.org/2000/svg" className="pedidos_vineta" viewBox="0 0 5 9"><path stroke="currentColor" d="M1 1l3 3.5L1 8" fill="none" fill-rule="evenodd"></path></svg>
-                </h2>
-                <div className="pedidos_vineta">
-                    
+            <section className="pedidos" id="pedidos" >
+                <div className="pedidos__div">
+                    <div className="pedidos__titulo-container">
+                        <h2 className="pedidos__titulo">Todos nuestros juegos
+                            <svg xmlns="http://www.w3.org/2000/svg" className="pedidos_vineta" viewBox="0 0 5 9"><path stroke="currentColor" d="M1 1l3 3.5L1 8" fill="none" fill-rule="evenodd"></path></svg>
+                        </h2>
+                        <div className="pedidos_vineta">
+
+                        </div>
+                    </div>
+                    <div className="pedidos__pedidos">
+
+                        <section className="pedidos__producto animate__animated animate__backInLeft">
+                            <figure className="pedidos__imagen">
+                                <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_FootballManager2022_SportsInteractive_S2_1200x1600-5377adfa5fd611bd6726995ece5b04ef?h=854&resize=1&w=640" alt="imagen de video juego" />
+                            </figure>
+                            <div className="pedidos__container">
+                                <p className="pedidos__container-data-titulo">Football Manager 2022</p>
+                            </div>
+                            <div className="pedidos__container-button-container">
+                                <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
+                                <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
+                            </div>
+                        </section>
+
+                        <section className="pedidos__producto animate__animated animate__backInLeft">
+                            <figure className="pedidos__imagen">
+                                <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/undefined/offer/ACOD_Portrait-552x576-64d0966bcf63c374163a5b920f68b253.jpg?h=854&resize=1&w=640" alt="imagen de video juego" />
+                            </figure>
+                            <div className="pedidos__container">
+                                <p className="pedidos__container-data-titulo">Football Manager 2022</p>
+                            </div>
+                            <div className="pedidos__container-button-container">
+                                <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
+                                <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
+                            </div>
+                        </section>
+
+                        <section className="pedidos__producto animate__animated animate__backInLeft">
+                            <figure className="pedidos__imagen">
+                                <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/undefined/offer/S2_ACOD-1280x1440-621a727d381ffe0cffe869c1e23bc741.jpg?h=854&resize=1&w=640" alt="imagen de video juego" />
+                            </figure>
+                            <div className="pedidos__container">
+                                <p className="pedidos__container-data-titulo">Football Manager 2022</p>
+                            </div>
+                            <div className="pedidos__container-button-container">
+                                <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
+                                <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
+                            </div>
+                        </section>
+
+                        <section className="pedidos__producto animate__animated animate__backInLeft">
+                            <figure className="pedidos__imagen">
+                                <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/offer/b6b2ef0cc19a4adaaa1cf6c7ed000dfa/EGS_GodfallUltimateEdition_CounterplayGames_Editions_S2_1200x1600-ac41b1de47d9dcad22626c856e5dd598?h=854&resize=1&w=640" alt="imagen de video juego" />
+                            </figure>
+                            <div className="pedidos__container">
+                                <p className="pedidos__container-data-titulo">Football Manager 2022</p>
+                            </div>
+                            <div className="pedidos__container-button-container">
+                                <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
+                                <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
+                            </div>
+                        </section>
+
+                        <section className="pedidos__producto animate__animated animate__backInLeft">
+                            <figure className="pedidos__imagen">
+                                <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/1368a7f14c3344bbaededbae528fafed/offer/EGS_DeadCells_MotionTwin_S2-1200x1600-34d9d5ebca89e17e0a26ddb2cb158b75.jpg?h=854&resize=1&w=640" alt="imagen de video juego" />
+                            </figure>
+                            <div className="pedidos__container">
+                                <p className="pedidos__container-data-titulo">Football Manager 2022</p>
+                            </div>
+                            <div className="pedidos__container-button-container">
+                                <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
+                                <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
+                            </div>
+                        </section>
+
+                        <section className="pedidos__producto animate__animated animate__backInLeft">
+                            <figure className="pedidos__imagen">
+                                <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/2deb44109e22450f93bd3bc28d2609f2/download-nowhere-prophet-offer-dwhj1.png?h=854&resize=1&w=640" alt="imagen de video juego" />
+                            </figure>
+                            <div className="pedidos__container">
+                                <p className="pedidos__container-data-titulo">Football Manager 2022</p>
+                            </div>
+                            <div className="pedidos__container-button-container">
+                                <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
+                                <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
+                            </div>
+                        </section>
+
+                        <section className="pedidos__producto animate__animated animate__backInLeft">
+                            <figure className="pedidos__imagen">
+                                <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/cb90945c8de248e39d4ca0a61a2175ea/download-rogue-invader-offer-dqafx.png?h=854&resize=1&w=640" alt="imagen de video juego" />
+                            </figure>
+                            <div className="pedidos__container">
+                                <p className="pedidos__container-data-titulo">Football Manager 2022</p>
+                            </div>
+                            <div className="pedidos__container-button-container">
+                                <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
+                                <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
+                            </div>
+                        </section>
+
+                        <section className="pedidos__producto animate__animated animate__backInLeft">
+                            <figure className="pedidos__imagen">
+                                <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/92e27e09d324479a8179d955f0e322e9/download-he-will-shoot-offer-nossq.jpg?h=854&resize=1&w=640" alt="imagen de video juego" />
+                            </figure>
+                            <div className="pedidos__container">
+                                <p className="pedidos__container-data-titulo">Football Manager 2022</p>
+                            </div>
+                            <div className="pedidos__container-button-container">
+                                <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
+                                <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
+                            </div>
+                        </section>
+
+                        <section className="pedidos__producto animate__animated animate__backInLeft">
+                            <figure className="pedidos__imagen">
+                                <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt/7bbe5d88-253c-4584-b195-ccd4703bc043/download-flat-heroes-offer-45db2c03.jpg?h=854&resize=1&w=640" alt="imagen de video juego" />
+                            </figure>
+                            <div className="pedidos__container">
+                                <p className="pedidos__container-data-titulo">Football Manager 2022</p>
+                            </div>
+                            <div className="pedidos__container-button-container">
+                                <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
+                                <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
+                            </div>
+                        </section>
+
+                        <section className="pedidos__producto animate__animated animate__backInLeft">
+                            <figure className="pedidos__imagen">
+                                <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/16546f00799e4658b63d345e17ec0243/download-janitor-bleeds-offer-tdqm9.png?h=854&resize=1&w=640" alt="imagen de video juego" />
+                            </figure>
+                            <div className="pedidos__container">
+                                <p className="pedidos__container-data-titulo">Football Manager 2022</p>
+                            </div>
+                            <div className="pedidos__container-button-container">
+                                <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
+                                <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
+                            </div>
+                        </section>
+
+                        <section className="pedidos__producto animate__animated animate__backInLeft">
+                            <figure className="pedidos__imagen">
+                                <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/e566c03bcdf24ef5833dc38118d33269/download-white-shadows-offer-12lgd.jpg?h=854&resize=1&w=640" alt="imagen de video juego" />
+                            </figure>
+                            <div className="pedidos__container">
+                                <p className="pedidos__container-data-titulo">Football Manager 2022</p>
+                            </div>
+                            <div className="pedidos__container-button-container">
+                                <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
+                                <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
+                            </div>
+                        </section>
+
+                        <section className="pedidos__producto animate__animated animate__backInLeft">
+                            <figure className="pedidos__imagen">
+                                <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/a33a21eed5f344a9b39466c4e5340a71/download-aces-of-the-luftwaffe-squadron--extended-edition-offer-a401z.jpg?h=854&resize=1&w=640" alt="imagen de video juego" />
+                            </figure>
+                            <div className="pedidos__container">
+                                <p className="pedidos__container-data-titulo">Football Manager 2022</p>
+                            </div>
+                            <div className="pedidos__container-button-container">
+                                <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
+                                <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
+                            </div>
+                        </section>
+
+                        <section className="pedidos__producto animate__animated animate__backInLeft">
+                            <figure className="pedidos__imagen">
+                                <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/b24034021c1b412ba68bd2c230ce6388/download-kombinera-offer-qjbgp.png?h=854&resize=1&w=640" alt="imagen de video juego" />
+                            </figure>
+                            <div className="pedidos__container">
+                                <p className="pedidos__container-data-titulo">Football Manager 2022</p>
+                            </div>
+                            <div className="pedidos__container-button-container">
+                                <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
+                                <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
+                            </div>
+                        </section>
+
+                        <section className="pedidos__producto animate__animated animate__backInLeft">
+                            <figure className="pedidos__imagen">
+                                <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/22025f2f1e414674b06401fbd7479ee1/download-atom-rpg-offer-1kfyi.jpg?h=854&resize=1&w=640" alt="imagen de video juego" />
+                            </figure>
+                            <div className="pedidos__container">
+                                <p className="pedidos__container-data-titulo">Football Manager 2022</p>
+                            </div>
+                            <div className="pedidos__container-button-container">
+                                <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
+                                <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
+                            </div>
+                        </section>
+
+                        <section className="pedidos__producto animate__animated animate__backInLeft">
+                            <figure className="pedidos__imagen">
+                                <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/offer/9c59efaabb6a48f19b3485d5d9416032/EGS_LEGOStarWarsTheSkywalkerSaga_TTGames_S2_1200x1600-fba27b1ae598e355c3ad42d04d9025ba?h=854&resize=1&w=640" alt="imagen de video juego" />
+                            </figure>
+                            <div className="pedidos__container">
+                                <p className="pedidos__container-data-titulo">Football Manager 2022</p>
+                            </div>
+                            <div className="pedidos__container-button-container">
+                                <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
+                                <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
+                            </div>
+                        </section>
+
+                        <section className="pedidos__producto animate__animated animate__backInLeft">
+                            <figure className="pedidos__imagen">
+                                <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/offer/90f53a7187d7472598d25f765f7cba82/EGS_BeyondCAD_BeyondCAD_S2_1200x1600-76b4a1372753e76dc4bb0ae525c49770?h=854&resize=1&w=640" alt="imagen de video juego" />
+                            </figure>
+                            <div className="pedidos__container">
+                                <p className="pedidos__container-data-titulo">Football Manager 2022</p>
+                            </div>
+                            <div className="pedidos__container-button-container">
+                                <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
+                                <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
+                            </div>
+                        </section>
+
+                        <section className="pedidos__producto animate__animated animate__backInLeft">
+                            <figure className="pedidos__imagen">
+                                <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/50947c834e41464b84a9fd8a60c68793/download-astalon-tears-of-the-earth-offer-vgroh.png?h=854&resize=1&w=640" alt="imagen de video juego" />
+                            </figure>
+                            <div className="pedidos__container">
+                                <p className="pedidos__container-data-titulo">Football Manager 2022</p>
+                            </div>
+                            <div className="pedidos__container-button-container">
+                                <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
+                                <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
+                            </div>
+                        </section>
+
+                    </div>
                 </div>
-            </div>
-            <div className="pedidos__pedidos">
-
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_FootballManager2022_SportsInteractive_S2_1200x1600-5377adfa5fd611bd6726995ece5b04ef?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/undefined/offer/ACOD_Portrait-552x576-64d0966bcf63c374163a5b920f68b253.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/undefined/offer/S2_ACOD-1280x1440-621a727d381ffe0cffe869c1e23bc741.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/offer/b6b2ef0cc19a4adaaa1cf6c7ed000dfa/EGS_GodfallUltimateEdition_CounterplayGames_Editions_S2_1200x1600-ac41b1de47d9dcad22626c856e5dd598?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/1368a7f14c3344bbaededbae528fafed/offer/EGS_DeadCells_MotionTwin_S2-1200x1600-34d9d5ebca89e17e0a26ddb2cb158b75.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/2deb44109e22450f93bd3bc28d2609f2/download-nowhere-prophet-offer-dwhj1.png?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/cb90945c8de248e39d4ca0a61a2175ea/download-rogue-invader-offer-dqafx.png?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/92e27e09d324479a8179d955f0e322e9/download-he-will-shoot-offer-nossq.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt/7bbe5d88-253c-4584-b195-ccd4703bc043/download-flat-heroes-offer-45db2c03.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/16546f00799e4658b63d345e17ec0243/download-janitor-bleeds-offer-tdqm9.png?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/e566c03bcdf24ef5833dc38118d33269/download-white-shadows-offer-12lgd.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/a33a21eed5f344a9b39466c4e5340a71/download-aces-of-the-luftwaffe-squadron--extended-edition-offer-a401z.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/b24034021c1b412ba68bd2c230ce6388/download-kombinera-offer-qjbgp.png?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/22025f2f1e414674b06401fbd7479ee1/download-atom-rpg-offer-1kfyi.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/offer/9c59efaabb6a48f19b3485d5d9416032/EGS_LEGOStarWarsTheSkywalkerSaga_TTGames_S2_1200x1600-fba27b1ae598e355c3ad42d04d9025ba?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/offer/90f53a7187d7472598d25f765f7cba82/EGS_BeyondCAD_BeyondCAD_S2_1200x1600-76b4a1372753e76dc4bb0ae525c49770?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/50947c834e41464b84a9fd8a60c68793/download-astalon-tears-of-the-earth-offer-vgroh.png?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/offer/0a9e3c5ab6684506bd624a849ca0cf39/EGS_DeathStrandingDirectorsCut_KOJIMAPRODUCTIONS_S4_1200x1600-5f99e16507795f9b497716b470cfd876?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/d91b61ea7ee144c2b17a7b20bc2d6776/download-nibiru-offer-1bsxq.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/salesEvent/salesEvent/4d7e4357-2f82-4b0d-894a-cf6e7517ffcd_1200x1600-130da58a6f84878bdc42302de722637c?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/92e27e09d324479a8179d955f0e322e9/download-he-will-shoot-offer-nossq.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt/7bbe5d88-253c-4584-b195-ccd4703bc043/download-flat-heroes-offer-45db2c03.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/16546f00799e4658b63d345e17ec0243/download-janitor-bleeds-offer-tdqm9.png?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/e566c03bcdf24ef5833dc38118d33269/download-white-shadows-offer-12lgd.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/a33a21eed5f344a9b39466c4e5340a71/download-aces-of-the-luftwaffe-squadron--extended-edition-offer-a401z.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/offer/b6b2ef0cc19a4adaaa1cf6c7ed000dfa/EGS_GodfallUltimateEdition_CounterplayGames_Editions_S2_1200x1600-ac41b1de47d9dcad22626c856e5dd598?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/cb90945c8de248e39d4ca0a61a2175ea/download-rogue-invader-offer-dqafx.png?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/e566c03bcdf24ef5833dc38118d33269/download-white-shadows-offer-12lgd.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/22025f2f1e414674b06401fbd7479ee1/download-atom-rpg-offer-1kfyi.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/offer/90f53a7187d7472598d25f765f7cba82/EGS_BeyondCAD_BeyondCAD_S2_1200x1600-76b4a1372753e76dc4bb0ae525c49770?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/d91b61ea7ee144c2b17a7b20bc2d6776/download-nibiru-offer-1bsxq.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/e566c03bcdf24ef5833dc38118d33269/download-white-shadows-offer-12lgd.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_FootballManager2022_SportsInteractive_S2_1200x1600-5377adfa5fd611bd6726995ece5b04ef?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/undefined/offer/ACOD_Portrait-552x576-64d0966bcf63c374163a5b920f68b253.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/undefined/offer/S2_ACOD-1280x1440-621a727d381ffe0cffe869c1e23bc741.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/offer/b6b2ef0cc19a4adaaa1cf6c7ed000dfa/EGS_GodfallUltimateEdition_CounterplayGames_Editions_S2_1200x1600-ac41b1de47d9dcad22626c856e5dd598?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/1368a7f14c3344bbaededbae528fafed/offer/EGS_DeadCells_MotionTwin_S2-1200x1600-34d9d5ebca89e17e0a26ddb2cb158b75.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/2deb44109e22450f93bd3bc28d2609f2/download-nowhere-prophet-offer-dwhj1.png?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/92e27e09d324479a8179d955f0e322e9/download-he-will-shoot-offer-nossq.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/e566c03bcdf24ef5833dc38118d33269/download-white-shadows-offer-12lgd.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/22025f2f1e414674b06401fbd7479ee1/download-atom-rpg-offer-1kfyi.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_FootballManager2022_SportsInteractive_S2_1200x1600-5377adfa5fd611bd6726995ece5b04ef?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/undefined/offer/ACOD_Portrait-552x576-64d0966bcf63c374163a5b920f68b253.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/undefined/offer/S2_ACOD-1280x1440-621a727d381ffe0cffe869c1e23bc741.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/offer/b6b2ef0cc19a4adaaa1cf6c7ed000dfa/EGS_GodfallUltimateEdition_CounterplayGames_Editions_S2_1200x1600-ac41b1de47d9dcad22626c856e5dd598?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/1368a7f14c3344bbaededbae528fafed/offer/EGS_DeadCells_MotionTwin_S2-1200x1600-34d9d5ebca89e17e0a26ddb2cb158b75.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/2deb44109e22450f93bd3bc28d2609f2/download-nowhere-prophet-offer-dwhj1.png?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/cb90945c8de248e39d4ca0a61a2175ea/download-rogue-invader-offer-dqafx.png?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/92e27e09d324479a8179d955f0e322e9/download-he-will-shoot-offer-nossq.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt/7bbe5d88-253c-4584-b195-ccd4703bc043/download-flat-heroes-offer-45db2c03.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/16546f00799e4658b63d345e17ec0243/download-janitor-bleeds-offer-tdqm9.png?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/e566c03bcdf24ef5833dc38118d33269/download-white-shadows-offer-12lgd.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/a33a21eed5f344a9b39466c4e5340a71/download-aces-of-the-luftwaffe-squadron--extended-edition-offer-a401z.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/b24034021c1b412ba68bd2c230ce6388/download-kombinera-offer-qjbgp.png?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/22025f2f1e414674b06401fbd7479ee1/download-atom-rpg-offer-1kfyi.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/offer/9c59efaabb6a48f19b3485d5d9416032/EGS_LEGOStarWarsTheSkywalkerSaga_TTGames_S2_1200x1600-fba27b1ae598e355c3ad42d04d9025ba?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_FootballManager2022_SportsInteractive_S2_1200x1600-5377adfa5fd611bd6726995ece5b04ef?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/undefined/offer/ACOD_Portrait-552x576-64d0966bcf63c374163a5b920f68b253.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/undefined/offer/S2_ACOD-1280x1440-621a727d381ffe0cffe869c1e23bc741.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/offer/b6b2ef0cc19a4adaaa1cf6c7ed000dfa/EGS_GodfallUltimateEdition_CounterplayGames_Editions_S2_1200x1600-ac41b1de47d9dcad22626c856e5dd598?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/1368a7f14c3344bbaededbae528fafed/offer/EGS_DeadCells_MotionTwin_S2-1200x1600-34d9d5ebca89e17e0a26ddb2cb158b75.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/2deb44109e22450f93bd3bc28d2609f2/download-nowhere-prophet-offer-dwhj1.png?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/cb90945c8de248e39d4ca0a61a2175ea/download-rogue-invader-offer-dqafx.png?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/92e27e09d324479a8179d955f0e322e9/download-he-will-shoot-offer-nossq.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt/7bbe5d88-253c-4584-b195-ccd4703bc043/download-flat-heroes-offer-45db2c03.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/16546f00799e4658b63d345e17ec0243/download-janitor-bleeds-offer-tdqm9.png?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/e566c03bcdf24ef5833dc38118d33269/download-white-shadows-offer-12lgd.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/a33a21eed5f344a9b39466c4e5340a71/download-aces-of-the-luftwaffe-squadron--extended-edition-offer-a401z.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/b24034021c1b412ba68bd2c230ce6388/download-kombinera-offer-qjbgp.png?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/22025f2f1e414674b06401fbd7479ee1/download-atom-rpg-offer-1kfyi.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/offer/9c59efaabb6a48f19b3485d5d9416032/EGS_LEGOStarWarsTheSkywalkerSaga_TTGames_S2_1200x1600-fba27b1ae598e355c3ad42d04d9025ba?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/offer/90f53a7187d7472598d25f765f7cba82/EGS_BeyondCAD_BeyondCAD_S2_1200x1600-76b4a1372753e76dc4bb0ae525c49770?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/50947c834e41464b84a9fd8a60c68793/download-astalon-tears-of-the-earth-offer-vgroh.png?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/offer/0a9e3c5ab6684506bd624a849ca0cf39/EGS_DeathStrandingDirectorsCut_KOJIMAPRODUCTIONS_S4_1200x1600-5f99e16507795f9b497716b470cfd876?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/d91b61ea7ee144c2b17a7b20bc2d6776/download-nibiru-offer-1bsxq.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/salesEvent/salesEvent/4d7e4357-2f82-4b0d-894a-cf6e7517ffcd_1200x1600-130da58a6f84878bdc42302de722637c?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/92e27e09d324479a8179d955f0e322e9/download-he-will-shoot-offer-nossq.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt/7bbe5d88-253c-4584-b195-ccd4703bc043/download-flat-heroes-offer-45db2c03.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/16546f00799e4658b63d345e17ec0243/download-janitor-bleeds-offer-tdqm9.png?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/e566c03bcdf24ef5833dc38118d33269/download-white-shadows-offer-12lgd.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/a33a21eed5f344a9b39466c4e5340a71/download-aces-of-the-luftwaffe-squadron--extended-edition-offer-a401z.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/offer/b6b2ef0cc19a4adaaa1cf6c7ed000dfa/EGS_GodfallUltimateEdition_CounterplayGames_Editions_S2_1200x1600-ac41b1de47d9dcad22626c856e5dd598?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/cb90945c8de248e39d4ca0a61a2175ea/download-rogue-invader-offer-dqafx.png?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/e566c03bcdf24ef5833dc38118d33269/download-white-shadows-offer-12lgd.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/22025f2f1e414674b06401fbd7479ee1/download-atom-rpg-offer-1kfyi.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/offer/90f53a7187d7472598d25f765f7cba82/EGS_BeyondCAD_BeyondCAD_S2_1200x1600-76b4a1372753e76dc4bb0ae525c49770?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/d91b61ea7ee144c2b17a7b20bc2d6776/download-nibiru-offer-1bsxq.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/e566c03bcdf24ef5833dc38118d33269/download-white-shadows-offer-12lgd.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_FootballManager2022_SportsInteractive_S2_1200x1600-5377adfa5fd611bd6726995ece5b04ef?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/undefined/offer/ACOD_Portrait-552x576-64d0966bcf63c374163a5b920f68b253.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/undefined/offer/S2_ACOD-1280x1440-621a727d381ffe0cffe869c1e23bc741.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/offer/b6b2ef0cc19a4adaaa1cf6c7ed000dfa/EGS_GodfallUltimateEdition_CounterplayGames_Editions_S2_1200x1600-ac41b1de47d9dcad22626c856e5dd598?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/1368a7f14c3344bbaededbae528fafed/offer/EGS_DeadCells_MotionTwin_S2-1200x1600-34d9d5ebca89e17e0a26ddb2cb158b75.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/2deb44109e22450f93bd3bc28d2609f2/download-nowhere-prophet-offer-dwhj1.png?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/92e27e09d324479a8179d955f0e322e9/download-he-will-shoot-offer-nossq.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/e566c03bcdf24ef5833dc38118d33269/download-white-shadows-offer-12lgd.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-<section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/spt-assets/22025f2f1e414674b06401fbd7479ee1/download-atom-rpg-offer-1kfyi.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_FootballManager2022_SportsInteractive_S2_1200x1600-5377adfa5fd611bd6726995ece5b04ef?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/undefined/offer/ACOD_Portrait-552x576-64d0966bcf63c374163a5b920f68b253.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-                <section className="pedidos__producto animate__animated animate__backInLeft">
-                    <figure className="pedidos__imagen">
-                        <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/undefined/offer/S2_ACOD-1280x1440-621a727d381ffe0cffe869c1e23bc741.jpg?h=854&resize=1&w=640" alt="imagen de video juego"/>
-                    </figure>
-                    <div className="pedidos__container">
-                        <p className="pedidos__container-data-titulo">Football Manager 2022</p>
-                    </div>
-                    <div className="pedidos__container-button-container">
-                        <p className="pedidos-precio text-decoration-line-through">PEN 99.90</p>
-                        <Link className="pedidos__container-button" to="/tienda/formPago">PEN <br></br> 79.00</Link>
-                    </div>
-                </section>
-                
-               
-            </div>
-        </div>
-    </section>
+            </section>
             {/* <section className="primera-necesidad__container">
                 <h1 className="primera-necesidad__title">Populares</h1>
                 <div className="cards-conatiner" id="cardsContainer1">
@@ -1460,5 +410,5 @@ const Tienda = () => {
         </>
     );
 }
- 
+
 export default Tienda;

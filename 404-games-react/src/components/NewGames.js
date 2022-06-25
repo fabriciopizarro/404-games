@@ -159,7 +159,7 @@ const NewGames = () => {
                         </div>
                     </section>
 
-                    {/* <section className="pedidos__producto animate__animated animate__backInLeft">
+                    <section className="pedidos__producto animate__animated animate__backInLeft">
                         <figure className="pedidos__imagen">
                             <img className="pedidos__imagen-producto" src="https://cdn1.epicgames.com/offer/933ada2ec45e4184ae840d64c99e0ba9/RoCo_EGS_2_1200x1600-3f66364da32c8695fa9fcb8c7093f190?h=854&resize=1&w=640" />
                         </figure>
@@ -171,7 +171,7 @@ const NewGames = () => {
 
                             <p className="pedidos-precio">PEN 79.00</p>
                         </div>
-                    </section> */}
+                    </section>
 
 
                 </div>

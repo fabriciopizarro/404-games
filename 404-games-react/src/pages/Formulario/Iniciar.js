@@ -2,28 +2,62 @@ import '../../styles/css/Logeo.css';
 import {
     Link
 } from 'react-router-dom';
+import {useState} from "react";
 
 const Iniciar = () => {
+
+    const [datos, setDatos] = useState({
+        email: "",
+        password: ""
+    });
+
+    const handleInputChange = (e) => {
+        let {name, value} = e.currentTarget;
+        setDatos({...datos, [name]: value});
+    }
+    
+    const handleSubmit = async(e) => {
+        e.preventDefault();
+        fetch("http://127.0.0.1:8000/auth/login/", {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(datos)
+        })
+        .then(response => response.json())
+        .then(data => {
+            if(data.email){
+                localStorage.setItem('value', data.tokens.access_token);
+                window.location.href="/home";
+            }
+            else{
+                alert("Credenciales incorrectas");
+            }
+        })
+        
+    }
+
     return (
-        <form class="form">
-            <h2 class="form-title">Iniciar Sesión</h2>
-            <p class="form-paragraph"> ¿Aun no tienes una cuenta? <Link to="/crear" class="form-link">Crear Cuenta</Link></p>
+        <form className="form" onSubmit={handleSubmit}>
+            <h2 className="form-title">Iniciar Sesión</h2>
+            <p className="form-paragraph"> ¿Aun no tienes una cuenta? <Link to="/crear" class="form-link">Crear Cuenta</Link></p>
 
-            <div class="form-container">
+            <div className="form-container">
 
-                <div class="form-group">
-                    <input type="text" id="user" class="form-input" placeholder=" " required pattern="^[a-zA-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-zA-ZÀ-ÿ\u00f1\u00d1]*)*[a-zA-ZÀ-ÿ\u00f1\u00d1]+$" title="Ingresa un Usuario válido" />
-                    <label for="user" class="form-label">Usuario:</label>
-                    <span class="form-line"></span>
+                <div className="form-group">
+                    <input type="text" name="email" id="email" onChange={handleInputChange} className="form-input" placeholder=" " required title="Ingresa un Usuario válido" />
+                    <label htmlFor="email" className="form-label">Email:</label>
+                    <span className="form-line"></span>
                 </div>
 
-                <div class="form-group">
-                    <input type="password" id="pasword" class="form-input" placeholder=" " required />
-                    <label for="pasword" class="form-label">Contraseña:</label>
-                    <span class="form-line"></span>
+                <div className="form-group">
+                    <input type="password" name="password" id="pasword" onChange={handleInputChange} className="form-input" placeholder=" " required />
+                    <label htmlFor="pasword" className="form-label">Contraseña:</label>
+                    <span className="form-line"></span>
                 </div>
 
-                <Link to="/home" class="form-submit">Ingresar</Link>
+                <button className="form-submit">Ingresar</button>
             </div>
         </form>
     );

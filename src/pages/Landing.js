@@ -11,6 +11,7 @@ import tv from "../assets/img/img-landing/tv.png"
 import programador from "../assets/img/img-landing/programador.jpeg"
 
 const Landing = () => {
+    // hola
     return (
         <>
             <header className="header-landing" id="header">

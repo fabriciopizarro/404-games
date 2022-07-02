@@ -57,7 +57,9 @@ const Carrousel = () => {
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="https://cdn2.unrealengine.com/epichomepage-artboard-1-1920x1080-329693365.jpg?resize=1&w=1920" class="d-block w-100" alt="..." />
+                        <video className="main-video" autoplay="autoplay" playsinline="" muted="true" loop="true">
+                            <source src="https://cdn2.unrealengine.com/gamesindustry-compressed-20a3c4aa799c.mp4" type="video/mp4" />
+                        </video>
                         <div class="carousel-caption d-none d-md-block">
                             <div class="carousel-play">
                                 <div class="carousel-trailer-container">

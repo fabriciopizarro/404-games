@@ -7,16 +7,17 @@ import Promocion from '../components/Promocion';
 const Home = () => {
     return (
         <>
-           
-           <Carrousel/>
-           <NewGames/>
-           <Explora/>
-           <NewGames/>
-           <NewGames/>
-           <JuegosGratuitos/>
-           <Promocion/>
+
+            <Carrousel />
+            <NewGames />
+            <JuegosPeru />
+            <Explora />
+            <NewGames />
+            <NewGames />
+            <JuegosGratuitos />
+            <Promocion />
         </>
     );
 }
- 
+
 export default Home;

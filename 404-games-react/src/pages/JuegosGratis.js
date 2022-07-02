@@ -6,9 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Free = () => {
   return (
     <>
-    <CardsGratis
-    titulo=" Juegos gratuitos"
-    />
+      <CardsGratis
+        titulo=" Videojuegos Peruanos"
+      />
     </>
   );
 }

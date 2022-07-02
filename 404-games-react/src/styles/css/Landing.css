@@ -263,6 +263,12 @@
   padding-top: 13%;
   padding-right: 2%;
 }
+.left-column {
+  margin-left: 5%;
+}
+.right-column {
+  margin-left: 5%;
+}
 
 .features-tittle {
   color: white;
@@ -364,6 +370,12 @@
   margin-left: 15%;
   margin-top: 21.4%;
   width: 70%;
+}
+
+.video-yt {
+  margin-left: 5.5%;
+  margin-top: 12.4%;
+  width: 70.5%;
 }
 
 /* 4 WATCH EVERY WHERE*/

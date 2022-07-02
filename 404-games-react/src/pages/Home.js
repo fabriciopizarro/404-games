@@ -13,10 +13,10 @@ const Home = () => {
 
             <Carrousel />
             <NewGames />
-            <JuegosPeru />
             <Explora />
             <NewGames />
             <NewGames />
+            <JuegosPeru />
             <JuegosGratuitos />
             <Promocion />
         </>

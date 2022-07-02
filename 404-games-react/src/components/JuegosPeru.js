@@ -1,26 +1,27 @@
-import '../styles/css/JuegosPeru.css';
+import '../styles/css/Landing.css';
 import tvretro from "../assets/img/tvretro.png";
-import fornite from "../assets/videos/fornite.mp4";
+import tec from "../assets/videos/tec.mp4";
 
 const JuegosPeru = () => {
     return (
         <>
 
-            <section className="peru_section-features">
-                <div className="peru_section-container">
-                    <div className="peru_right-column">
-                        <img className="peru_img-2" src={tvretro} />
-                        <iframe className="peru_video-2" width="560" height="315" src="https://www.youtube.com/embed/FWgErYAkUlc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <section className="section-features">
 
-                        {/* <video className="peru_video-2" autoplay="autoplay" playsinline="" muted="true" loop="true">
-                        </video> */}
+                <div className="section-container">
+                    <div className="right-column">
+                        <img src={tvretro} />
+                        <video className="video-yt" controls playsinline="" loop="true">
+                            <source src={tec} />
+                        </video>
                     </div>
-                    <div className="peru_left-column">
-                        <h2 className="peru_features-tittle">Descarga juegos en mobile.</h2>
-                        <h3>Disponible para Android e iOS.</h3>
+                    <div className="left-column">
+                        <h2 className="features-tittle">Desarrollo de juegos en Perú.</h2>
+                        <h3>Conoce un poco mas sobre videojuegos desarrollados en Perú.</h3>
                     </div>
-                </div >
-            </section >
+                </div>
+
+            </section>
         </>
     );
 }

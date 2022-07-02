@@ -2,7 +2,7 @@ import '../../styles/css/Logeo.css';
 import {
     Link, useNavigate
 } from 'react-router-dom';
-import {useState} from "react";
+import { useState } from "react";
 
 const Crear = () => {
 
@@ -16,30 +16,30 @@ const Crear = () => {
     const navigate = useNavigate();
 
     const handleInputChange = (e) => {
-        let {name, value} = e.currentTarget;
-        setDatos({...datos, [name]: value});
+        let { name, value } = e.currentTarget;
+        setDatos({ ...datos, [name]: value });
     }
-    
-    const handleSubmit = async(e) => {
+
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        fetch("http://127.0.0.1:8000/auth/register/", {
+        fetch("https://aplication-codica2.herokuapp.com/auth/register/", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify(datos)
         })
-        .then(response => response.json())
-        .then(data => {
-            console.log(data);
-            if(data.email){
-                navigate("/iniciar");
-            }
-            else{
-                alert("Credenciales incorrectas");
-            }
-        })
-        
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+                if (data.email) {
+                    navigate("/iniciar");
+                }
+                else {
+                    alert("Credenciales incorrectas");
+                }
+            })
+
     }
 
     return (
@@ -48,7 +48,7 @@ const Crear = () => {
             <p className="form-paragraph"> ¿Ya tienes una cuenta? <Link to="/iniciar" className="form-link">Iniciar Sesión</Link></p>
 
             <div className="form-container">
-             {/*
+                {/*
                 <div className="form-name__lastname">
                     <div className="form-group">
                         <input type="text" id="name" onChange={handleInputChange} className="form-input" placeholder=" " required pattern="^[a-zA-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-zA-ZÀ-ÿ\u00f1\u00d1]*)*[a-zA-ZÀ-ÿ\u00f1\u00d1]+$" title="Ingresa un nombre válido" />
@@ -97,5 +97,5 @@ const Crear = () => {
         </form>
     );
 }
- 
+
 export default Crear;

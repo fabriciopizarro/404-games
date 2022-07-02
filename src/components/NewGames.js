@@ -8,12 +8,12 @@ import React, { useEffect, useState } from 'react';
 const NewGames = () => {
 
     const [result, setResult] = useState([]);
-/*
-    useEffect(() => {
-        fetch("http://127.0.0.1:8000/games/listofgames")
-        .then(response => response.json())
-        .then(data => setResult(data))
-    }, [])*/
+    /*
+        useEffect(() => {
+            fetch("https://aplication-codica2.herokuapp.com/games/listofgames")
+            .then(response => response.json())
+            .then(data => setResult(data))
+        }, [])*/
     return (
 
         <section className="pedidos" id="pedidos" >

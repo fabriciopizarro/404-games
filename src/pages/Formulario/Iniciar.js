@@ -2,7 +2,7 @@ import '../../styles/css/Logeo.css';
 import {
     Link
 } from 'react-router-dom';
-import {useState} from "react";
+import { useState } from "react";
 
 const Iniciar = () => {
 
@@ -12,30 +12,30 @@ const Iniciar = () => {
     });
 
     const handleInputChange = (e) => {
-        let {name, value} = e.currentTarget;
-        setDatos({...datos, [name]: value});
+        let { name, value } = e.currentTarget;
+        setDatos({ ...datos, [name]: value });
     }
-    
-    const handleSubmit = async(e) => {
+
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        fetch("http://127.0.0.1:8000/auth/login/", {
+        fetch("https://aplication-codica2.herokuapp.com/auth/login/", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify(datos)
         })
-        .then(response => response.json())
-        .then(data => {
-            if(data.email){
-                localStorage.setItem('value', data.tokens.access_token);
-                window.location.href="/home";
-            }
-            else{
-                alert("Credenciales incorrectas");
-            }
-        })
-        
+            .then(response => response.json())
+            .then(data => {
+                if (data.email) {
+                    localStorage.setItem('value', data.tokens.access_token);
+                    window.location.href = "/home";
+                }
+                else {
+                    alert("Credenciales incorrectas");
+                }
+            })
+
     }
 
     return (
@@ -62,5 +62,5 @@ const Iniciar = () => {
         </form>
     );
 }
- 
+
 export default Iniciar;

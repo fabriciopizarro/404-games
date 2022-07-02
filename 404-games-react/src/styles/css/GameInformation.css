@@ -1,39 +1,256 @@
-.container-section {
-    color: #fff;
+.game-information-section{
     font-family: 'Roboto Mono', monospace;
-    margin: 0 auto;
-}
-  
-.card{
-    text-align: center; border: none; border-radius: 5px;-webkit-box-shadow: 12px 14px 22px 2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 12px 14px 22px 2px rgba(0,0,0,0.75);
-    box-shadow: 12px 14px 22px 2px rgba(0,0,0,0.75);
-    margin-bottom: 100px;
-}
-
-.imgo{
-    width:230;
-    height:230;
-}
-
-.cover {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url('https://i.pinimg.com/originals/53/aa/f6/53aaf6011bba6d6bb0499e1eef12c26d.jpg');
-    background-size: cover;
+    flex-direction: column;
+    gap: 1.5rem;
+    letter-spacing: 1px;
+    /*max-width: 290px;*/
+    margin: auto;
+}
+
+.hero{
+    background-image: url(https://cdn.2kgames.com/web/rw6kjyrbte/wonderlands_metaimage.jpeg);
     background-position: center;
-    background-attachment: fixed;
-    height:350px;
-        
-    /* min-height: 100vh; */
-    font-size: 2.5rem;
-    font-weight: 700;
-    text-shadow:
-        0 0 0.5rem black,
-        0 0 1rem black,
-        0 0 1.5rem black,
-        0 0 2rem black,
-        0 0 2.5rem black,
-        0 0 3rem black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 50vh;
+}
+
+.hero__title{
+    display: none;
+}
+
+.game-description{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 300px;
+    margin:auto;
+}
+
+.game__name{
+    font-size: 2rem;
+    margin: 0;
+}
+
+.game-extra-data{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.game__price{
+    margin: 0;
+}
+
+.starts-container{
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.start-image__container{
+    width: 1.5rem;
+    margin: 0;
+}
+
+.start-image{
+    max-width: 100%;
+}
+
+.game-information-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8rem;
+    max-width: 300px;
+}
+
+.game-information__video{
+    width: 100%;
+}
+
+.game__video{
+    max-width: 100%;
+}
+
+.game-information{
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    gap: 1rem;
+}
+
+.game-information__mode,
+.game-information__platform,
+.game-information__genre{
+    margin: 0.3rem 0;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: auto;
+    max-width: 300px;
+}
+
+.button-buy{
+    background-color: rgb(8, 100, 8);
+    padding: 0.5rem;
+    border-radius: 8px;
+    transition: all 0.5s;
+    box-shadow: 0 0.12rem 0.12rem rgb(0, 66, 0);
+}
+
+.button-buy__text{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.game-resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8rem;
+    max-width: 300px;
+    margin: auto;
+}
+
+.game_title,
+.game__paragraph{
+    margin: 0.5rem 0;
+}
+
+.game-comentaries-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 300px;
+    margin: auto;
+}
+
+.game-comentaries__title{
+    margin: 0.5rem 0;
+    font-weight: bold;
+}
+
+.game-comentaries-users{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0.8rem;
+    border: 1px solid rgb(143, 6, 6);
+}
+
+.game-comentary-user{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 0.5rem;
+}
+
+.game-comentary__data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.game-comentary__user-name,
+.game-comentary__score-satisfaction{
+    margin: 0.5rem 0;
+}
+
+.game-comentary__comentary{
+    margin: 0.2rem 0;
+}
+
+@media (min-width: 854px){
+    .hero{
+        min-height: 70vh;
+    }
+
+    .game__name{
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    .game-description{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        max-width: 1024px;
+        margin: auto;
+    }
+
+    .game-extra-data{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    .game-information-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2rem;
+        max-width: 1024px;
+    }
+
+    .game-information__video{
+        max-width: 50%;
+    }
+    
+    .game__video{
+        width: 400px;
+        height: 230px;
+    }
+    
+    .game-information{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1rem;
+        gap: 0.2rem;
+    }
+
+    .game-information__mode,
+    .game-information__platform,
+    .game-information__genre{
+        margin: 0.5rem 0;
+    }
+
+    .buttons-container{
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        margin: 1rem;
+    }
+
+    .game-resume{
+        max-width: 800px;
+    }
+
+    .game_title,
+    .game-comentaries__title{
+        font-size: 2rem;
+    }
+
+    .game_title,
+    .game__paragraph{
+        margin: 1rem;
+    }
+
+    .game-comentaries-container{
+        max-width: 800px;
+    }
+
+    .game-comentaries-users{
+        padding: 1.5rem;
+    }
 }

@@ -3,21 +3,24 @@ import NewGames from '../components/NewGames';
 import JuegosGratuitos from '../components/JuegosGratuitos';
 import Explora from '../components/Explora';
 import Promocion from '../components/Promocion';
-import Header from '../components/Header';
+import JuegosPeru from '../components/JuegosPeru';
+
+// import Header from '../components/Header';
 
 const Home = () => {
     return (
         <>
-           
-           <Carrousel/>
-           <NewGames/>
-           <Explora/>
-           <NewGames/>
-           <NewGames/>
-           <JuegosGratuitos/>
-           <Promocion/>
+
+            <Carrousel />
+            <NewGames />
+            <JuegosPeru />
+            <Explora />
+            <NewGames />
+            <NewGames />
+            <JuegosGratuitos />
+            <Promocion />
         </>
     );
 }
- 
+
 export default Home;

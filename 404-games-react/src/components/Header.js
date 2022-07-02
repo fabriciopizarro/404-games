@@ -23,13 +23,16 @@ const Header = () => {
 
                 <ul className="header-nav__list">
                     <li className="header-nav__item">
-                        <Link className="header-nav__link" to="/home">INICIO</Link>
+                        <Link className="header-nav__link" to="/home">HOME</Link>
                     </li>
                     <li className="header-nav__item">
                         <Link className="header-nav__link" to="/tienda">TIENDA</Link>
                     </li>
                     <li className="header-nav__item">
-                        <a className="header-nav__link" href="https://www.levelup.com/noticias" target="_blank">NOTICIAS</a>
+                        <a className="header-nav__link" href="https://www.facebook.com/404-Games-108137015287271" target="_blank">FAN PAGE</a>
+                    </li>
+                    <li className="header-nav__item">
+                        <a className="header-nav__link" target="_blank">APRENDER</a>
                     </li>
                 </ul>
             </nav>

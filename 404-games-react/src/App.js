@@ -10,6 +10,7 @@ import Crear from './pages/Formulario/Crear';
 import Iniciar from './pages/Formulario/Iniciar';
 import Landing from './pages/Landing';
 import Confirm from './pages/Confirm';
+// import JuegosPeru from './components/JuegosPeru';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter as Router,
@@ -38,6 +39,7 @@ function App() {
           <Route path="/pptGame" element={<JuegosPPT />} />
           <Route path="/home" element={<Home />} />
           <Route path="/crear" element={<Crear />} />
+          {/* <Route path="/juegosperu" element={<JuegosPeru />} /> */}
           <Route path="/iniciar" element={<Iniciar />} />
           <Route index path="/" element={<Landing />} />
         </Routes>

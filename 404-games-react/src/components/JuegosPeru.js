@@ -17,7 +17,7 @@ const JuegosPeru = () => {
                     </div>
                     <div className="left-column">
                         <h2 className="features-tittle">Desarrollo de juegos en Perú.</h2>
-                        <h3>Conoce un poco mas sobre videojuegos desarrollados en Perú.</h3>
+                        <h3>Conoce un poco más sobre videojuegos desarrollados en Perú.</h3>
                     </div>
                 </div>
 

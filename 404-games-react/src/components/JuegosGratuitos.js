@@ -3,112 +3,93 @@ import {
     Link
 } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/css/Landing.css';
 
 const JuegosGratuitos = () => {
     return (
         <section>
             <div class="container-sm rounded mt-4 px-4">
-
                 <div class="row">
-
                     <div class="col">
-
                         <div class="row py-3">
-
                             <div class="col-6 d-flex justify-content-start">
-
                                 <div>
                                     <span class="gift-icon">
-                                       <img src={Gift} />
+                                        <img src={Gift} />
                                     </span>
-                                
                                 </div>
                                 <h2 class=" mt-1 px-3 color-text-light">
-                                   Juegos gratuitos 
+                                    Videojuegos Peruanos
                                 </h2>
-                           
-
                             </div>
-
                             <div class="col">
-
                                 <div class=" float-end">
-                                   <Link to="/free" class="btn btn-outline-light">Ver mas</Link>
+                                    <Link to="/free" class="btn btn-outline-light">Ver mas</Link>
                                 </div>
-
                             </div>
-
                         </div>
-
                         <div class="row ">
-
                             <div class="col-md-3 ">
-
                                 <div class="card bg-dark">
-                                    <img class="card-img bg-dark" src="https://i.postimg.cc/SN6fgq8W/Assassins-Creed.jpg" />
-                                    
-                                    <div class="card-footer rounded-bottom bg-primary d-flex justify-content-center ">
-                                        <small class="text-light">GRATIS AHORA</small>
-                                    </div>
+                                    <video className="main-video" autoplay="autoplay" playsinline="" muted="true" loop="true">
+                                        <source src="https://cdn.akamai.steamstatic.com/steam/apps/256823019/movie480_vp9.webm?t=1613952814" type="video/mp4" />
+                                    </video>
+                                    {/* <video class="card-img bg-dark" src="https://cdn.akamai.steamstatic.com/steam/apps/256823019/movie480_vp9.webm?t=1613952814" /> */}
+
+                                    {/* <div class="card-footer rounded-bottom bg-primary d-flex justify-content-center ">
+                                        <h3 class="text-light">GRATIS AHORA</h3>
+                                    </div> */}
                                     <div class="mt-3 ">
-                                        <small class="text-light">Assassin's CreedValhalla</small>
+                                        <h3 class="text-light">Duel on board</h3>
                                     </div>
                                 </div>
-
                             </div>
 
                             <div class=" col-md-3">
-
                                 <div class="card bg-dark">
-                                    <img class="card-img" src="https://i.postimg.cc/JzRcggcS/fallout76.jpg" />
-                                    <div class="card-footer rounded-bottom bg-primary d-flex justify-content-center">
-                                        <small class="text-light">GRATIS AHORA</small>
-                                    </div>
+                                    <video className="main-video" autoplay="autoplay" playsinline="" muted="true" loop="true">
+                                        <source src="https://cdn.akamai.steamstatic.com/steam/apps/256825857/movie480_vp9.webm?t=1615749867" type="video/mp4" />
+                                    </video>
+                                    {/* <div class="card-footer rounded-bottom bg-primary d-flex justify-content-center">
+                                        <h3 class="text-light">GRATIS AHORA</h3>
+                                    </div> */}
                                     <div class="mt-3">
-                                        <small class="text-light">Fallout 76</small>
+                                        <h3 class="text-light">Tunche</h3>
                                     </div>
                                 </div>
-
                             </div>
 
                             <div class=" col-md-3">
-
                                 <div class="card bg-dark">
-                                    <img src="https://i.postimg.cc/hjh0s5RT/brothers.jpg" class="card-img border-radius rounded-top" />
-                                    <div class="card-footer rounded-bottom bg-black d-flex justify-content-center">
-                                        <small class="text-light">Próximamente</small>
-                                    </div>
+                                    <video className="main-video" autoplay="autoplay" playsinline="" muted="true" loop="true">
+                                        <source src="https://cdn.akamai.steamstatic.com/steam/apps/256860208/movie480_vp9.webm?t=1643294180" type="video/mp4" />
+                                    </video>                                    {/* <div class="card-footer rounded-bottom bg-black d-flex justify-content-center">
+                                        <h3 class="text-light">Próximamente</h3>
+                                    </div> */}
                                     <div class="mt-3">
-                                       <small class="text-light">Brothers: A Tale of Two Sons</small>
+                                        <h3 class="text-light">Imp of the sun</h3>
                                     </div>
                                 </div>
-
                             </div>
 
                             <div class=" col-md-3">
-
                                 <div class="card bg-dark">
-                                    <img src="https://i.postimg.cc/SxV7prgR/vanishing.jpg" class="card-img border-radius rounded-top" />
-                                    <div class="card-footer rounded-bottom bg-black d-flex  justify-content-center">
-                                        <small class="text-light">Próximamente</small>
-                                    </div>
+                                    <video className="main-video" autoplay="autoplay" playsinline="" muted="true" loop="true">
+                                        <source src="https://cdn.akamai.steamstatic.com/steam/apps/256892640/movie480_vp9.webm?t=1655666409" type="video/mp4" />
+                                    </video>                                    {/* <div class="card-footer rounded-bottom bg-black d-flex  justify-content-center">
+                                        <h3 class="text-light">Próximamente</h3>
+                                    </div> */}
                                     <div class="mt-3">
-                                        <small class="text-light">The Vanishing of Ethan Carter</small>
+                                        <h3 class="text-light">MAGO</h3>
                                     </div>
                                 </div>
-
                             </div>
-                        
-
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
         </section>
     );
 }
- 
+
 export default JuegosGratuitos;

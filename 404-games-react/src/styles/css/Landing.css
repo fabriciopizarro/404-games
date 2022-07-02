@@ -256,7 +256,8 @@
   background-color: black;
   display: flex;
   padding: 0px 0px;
-  padding-bottom: 30px;
+  padding-top: 3rem;
+  padding-bottom: 0.1rem;
 }
 
 .section-features .section-container .left-column {

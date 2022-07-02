@@ -88,7 +88,7 @@ const JuegosGratuitos = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     );
 }
 
